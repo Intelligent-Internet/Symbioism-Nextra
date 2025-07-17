@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Optional: import Nextra theme styles */
+@import 'nextra-theme-docs/style.css';
+/* or nextra-theme-blog/style.css */
+
+@variant dark (&:where(.dark *));
+
+/* Set active link color */
+.nextra-toc a[href].nextra-focus,
+.nextra-sidebar li.active a {
+  /* Set active link color for both sidebar and TOC */
+  color: #BAE9F4;
+}
+
+body {
+  background-color: #191E1B;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nextra-sidebar-footer,
+.nextra-navbar-blur {
+  background-color: #191E1B;
+}

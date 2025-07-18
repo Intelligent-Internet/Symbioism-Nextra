@@ -8,7 +8,7 @@ export default {
   // },
   docs: {
     type: 'page',
-    title: 'Documentation'
+    title: 'Framework'
   },
   blog: {
     type: 'page',

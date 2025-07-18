@@ -1,4 +1,4 @@
 export default {
-  philosophy: '',
-  'social-contract': '',
+  philosophy: 'Chapter 1: Philosophy',
+  'social-contract': 'Chapter 2: Social Contract',
 }

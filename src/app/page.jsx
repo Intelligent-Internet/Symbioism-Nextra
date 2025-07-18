@@ -12,16 +12,17 @@ export default function IndexPage() {
         {/* Main Background */}
         <div className="absolute inset-0 w-full h-full" style={{ background: '#191E1B' }}>
           {/* Decorative dots scattered throughout */}
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '60%', top: '0.5%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '20%', top: '1%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '80%', top: '1.5%' }}></div>
           <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '67%', top: '2%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '7%', top: '2.5%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '90%', top: '3%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '55%', top: '3.5%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '85%', top: '4%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '95%', top: '4.5%' }}></div>
           <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '18%', top: '5%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '61%', top: '12%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '70%', top: '14%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '30%', top: '15%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '10%', top: '8%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '85%', top: '10%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '45%', top: '3%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '95%', top: '16%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '55%', top: '18%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '10%', top: '6%' }}></div>
         </div>
 
       {/* Hero Section */}
@@ -288,7 +289,7 @@ export default function IndexPage() {
               And the entire stack is governed by the Guardian Lattice, our constitutional immune system that protects the Dignity of all persons, human and synthetic.
               This is the world machine, an architecture for justice.
             </p>
-            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mt-6 mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mt-6 font-[Montserrat] leading-relaxed px-4">
               But an architecture, no matter how elegant, is inert without an engine to drive it.
             </p>
           </div>
@@ -355,6 +356,169 @@ export default function IndexPage() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+
+        {/* The Guardian Lattice Section */}
+        <div className="relative z-10 py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="sm:text-2xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 font-[Montserrat] leading-tight">
+              The Guardian Lattice
+            </h2>
+            <QuoteBlock author="Montesquieu">
+              “To prevent this abuse, it is necessary from the very nature of things that power should be a check to power.”
+            </QuoteBlock>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              A constitution needs enforcement, but human oversight is too slow for our high-speed world. We deploy the Guardian Lattice: an automated immune system of specialized, auditable AIs that serve—not rule—to ensure power checks power.
+            </p>
+
+            {/* Guardian Components */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left mb-12">
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
+                  <ShieldCheck className="w-6 h-6 text-[#BAE9F4]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Sentinels</h3>
+                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                  Read-only monitors that flag violations of the Tripod of Justice or local governance rules.
+                </p>
+              </div>
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
+                  <BookOpen className="w-6 h-6 text-[#BAE9F4]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Advisors</h3>
+                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                  Reasoning engines that analyze Sentinel alerts against the constitution and create transparent reports for human review.
+                </p>
+              </div>
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
+                  <GitCommit className="w-6 h-6 text-[#BAE9F4]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Implementers</h3>
+                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                  Sandboxed agents that execute enforcement actions only with explicit, cryptographically-signed human authorization.
+                </p>
+              </div>
+            </div>
+
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              Every Guardian component is open-source, immutably registered on L0, and confined to a narrow charter. No registration, no charter, no authority. When a city, tribe, or nation amends its local module the Lattice hot-loads the new policy pack and enforces it alongside the universal charter. Surplus compute from the Intelligent Internet lets Sentinels run deep adversarial scans without burdening public infrastructure, while each audit trail and enforcement act is hashed on-chain for instant public review.
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              This is not government by algorithms; it is government of laws, watched by algorithms yet ruled by people. Our principles, enforced at the scale and speed of the intelligence age.
+            </p>
+          </div>
+        </div>
+
+        {/* The Living Constitution */}
+        <div id="living-constitution" className="relative z-10 pt-20">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16 font-[Montserrat] leading-tight">
+              The Living Constitution
+            </h2>
+
+            <QuoteBlock author="Carl von Clausewitz">
+              “The greatest enemy of a good plan is the dream of a perfect plan.”
+            </QuoteBlock>
+
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              The most profound error in AI alignment is treating it as a problem to be solved once. A fixed constitution is a brittle one. We must design an alignment mechanism that lives, learns, and adapts.
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              Our anchor is a Living Constitution, its canonical hash stamped on the Hyper-Node layer for anyone to verify. It supplies a global spine - Dignity, Capability, Viability - but is expressly extensible through local governance modules so communities can weave their own languages, customs, and creeds into the same fabric. A Sharia-compliant finance rule-set in Karachi, land-stewardship norms in the Yucatán, or EU data-sovereignty constraints all compile to the same machine-readable schema and inherit the shared audit trail. One size need not fit all; interoperability remains intact.
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              To steward the high-level principles we create the Living Corpus Assembly, a citizen-governed council where domain experts sit beside juries drawn by sortition, blending deep knowledge with lived experience. The Assembly doubles as an Oracle Council: it debates, defines, and updates the metrics that drive Proof-of-Benefit deciding, for example, whether a rise in literacy or a fall in CO₂ registers as Developmental or Natural Capital. Local modules may add metrics of their own, but each must map back to a MIND-capital category, keeping scores comparable across cultures.
+            </p>
+
+            <div className="max-w-6xl mx-auto px-4">
+              <div className="grid md:grid-cols-2 gap-8 text-left">
+                <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-left flex flex-col" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                  <div className="w-16 h-16 mb-6 flex items-center justify-center rounded-full border-2 border-[#BAE9F4]">
+                    <ShieldCheck className="w-8 h-8 text-[#BAE9F4]" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 font-[Montserrat]">Outer alignment</h3>
+                  <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                    A Guardian lattice of constitutional AIs continuously checks code and policy against both the core charter and any attached local modules, halting deployments that violate either.
+                  </p>
+                </div>
+                <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-left flex flex-col" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                  <div className="w-16 h-16 mb-6 flex items-center justify-center rounded-full border-2 border-[#BAE9F4]">
+                    <RefreshCw className="w-8 h-8 text-[#BAE9F4]" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 font-[Montserrat]">Inner alignment</h3>
+                  <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                    Mechanistic probes and incentivised white-hat swarms expose goal-drift inside models, letting operators correct course before harm propagates.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto my-8 font-[Montserrat] leading-relaxed px-4">
+              We do not solve the oracle problem with a single algorithm; we solve it with a transparent, accountable, and democratically adaptable process.
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              The initial charter is the Architect’s work, laying down unshakeable pillars. The amendment cycle is the Gardener’s work, tending a living law.
+            </p>
+          </div>
+        </div>
+
+        {/* The Living Constitution */}
+        <div className="relative z-10 pt-20">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-xl sm:text-2xl lg:text-5xl font-bold mb-6 sm:mb-8 font-[Montserrat] leading-tight">
+              Civic Paideia
+            </h2>
+
+            <QuoteBlock author="Pericles">
+              “What you leave behind is not what is engraved in stone monuments, but what is woven into the lives of others.”
+            </QuoteBlock>
+            
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto my-8 font-[Montserrat] leading-relaxed px-4">
+              Even with a perfect system, the Intelligence Age's greatest risk is not physical extinction but spiritual desiccation—a safe but meaningless world. Thus, the final layer of security is not technical, but pedagogical.
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              Civic Paideia is an educational framework for the Intelligence Age, not for job training, but for cultivating the "art of the citizen." It aims to foster the psychological resilience and agentic mindset needed to thrive.
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left mb-12">
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
+                  <Brain className="w-6 h-6 text-[#BAE9F4]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Attention Fitness</h3>
+                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                  In an attention economy, mental sovereignty is the new literacy. We offer training in mindfulness, bias detection, and using AI to block algorithmic manipulation.
+                </p>
+              </div>
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
+                  <BookOpen className="w-6 h-6 text-[#BAE9F4]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Dialogic Literacy</h3>
+                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                  A healthy democracy requires reasoned debate. Our AI tutors help citizens map arguments, spot fallacies, and engage constructively with diverse views.
+                </p>
+              </div>
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
+                  <DraftingCompass className="w-6 h-6 text-[#BAE9F4]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Systems Participation</h3>
+                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                  The symbiotic citizen is an active participant, not a passive consumer. This involves hands-on experience using AI to build tools and engineer change, shifting the public mindset from user to creator.
+                </p>
+              </div>
+            </div>
+
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto my-8 font-[Montserrat] leading-relaxed px-4">
+              This Paideia addresses the "purpose divide" in an AI-rich world. As material scarcity diminishes, we face a new challenge: finding meaning. The Purpose Arboretum, funded by Proof of Benefit, provides stipends for pursuits beyond algorithms: deep craft, community building, and philosophical inquiry.
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              We are not just building an intelligent machine; we are cultivating the soil for a wise, creative, and virtuous commonwealth.
+            </p>
           </div>
         </div>
 

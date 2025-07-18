@@ -1,8 +1,9 @@
 import "./globals.css"
 import Image from 'next/image'
 import Link from 'next/link'
-import { Brain, Users, Zap, DraftingCompass, Layers, Bot, User, GitCommit, GitPullRequest, ShieldCheck, Database } from 'lucide-react';
+import { Brain, Users, Zap, DraftingCompass, Layers, Layers2, Bot, User, GitCommit, GitPullRequest, ShieldCheck, Database, Award, Activity, Network, Anchor, Landmark, RefreshCw, Scale, Coins, BookOpen, Gift, TrendingUp, HeartHandshake, Globe } from 'lucide-react';
 import TripodGraphic from '../components/TripodGraphic';
+import FlywheelGraphic from '../components/FlywheelGraphic';
 import QuoteBlock from '../components/QuoteBlock';
 
 export default function IndexPage() {
@@ -194,7 +195,7 @@ export default function IndexPage() {
 
             {/* Sentience Gradient Levels */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8">
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                 <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
                   <DraftingCompass className="w-6 h-6 text-[#BAE9F4]" />
                 </div>
@@ -203,7 +204,7 @@ export default function IndexPage() {
                   Systems with no internal model or goal (a hammer, a simple script). No agency.
                 </p>
               </div>
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8">
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                 <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
                   <Bot className="w-6 h-6 text-[#BAE9F4]" />
                 </div>
@@ -212,7 +213,7 @@ export default function IndexPage() {
                   Systems that meet our definition (self-driving cars, most current AI). They have functional agency and can be held accountable.
                 </p>
               </div>
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8">
+              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                 <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
                   <User className="w-6 h-6 text-[#BAE9F4]" />
                 </div>
@@ -235,32 +236,61 @@ export default function IndexPage() {
             <QuoteBlock author="Elinor Ostrom">
               “There is no reason to believe that bureaucrats and politicians... are better at solving problems than the people on the spot.”
             </QuoteBlock>
-            <p className="text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-4xl mx-auto mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
-              We architect a unified system of three distinct, interoperable layers. Each has a specific function, moving from a stable, universal core to an adaptive, communal middle, and finally to a dynamic, personal edge.
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
+              To honor Dignity, expand Capability, and ensure Viability, we architect a unified system of three distinct, interoperable layers. The architecture moves from a stable, universal core to an adaptive, communal middle, and finally to a dynamic, personal edge.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-center">
-                <Layers className="w-20 h-20 mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Foundation Layer (L0)</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  The system’s bedrock: a global consensus layer for an immutable timeline and verifiable truth. The source of true digital scarcity and the system’s unchangeable law.
-                </p>
+            <div className="space-y-8 max-w-6xl mx-auto">
+              {/* Foundation Layer */}
+              <div className="md:grid md:grid-cols-12 items-center gap-8 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 transition-all duration-300 hover:shadow-cyan-glow" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="md:col-span-1 flex justify-center mb-6 md:mb-0">
+                  <svg className="w-20 h-20 text-[#BAE9F4]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.0069 17.7479C12.7029 17.9235 12.358 18.0159 12.0069 18.0159C11.6559 18.0159 11.311 17.9235 11.0069 17.7479L2.50695 12.8779C2.35305 12.7907 2.22504 12.6643 2.13598 12.5114C2.04692 12.3586 2 12.1848 2 12.0079C2 11.8311 2.04692 11.6573 2.13598 11.5045C2.22504 11.3516 2.35305 11.2252 2.50695 11.1379L11.0069 6.26795C11.311 6.09241 11.6559 6 12.0069 6C12.358 6 12.7029 6.09241 13.0069 6.26795L21.5069 11.1379C21.6608 11.2252 21.7889 11.3516 21.8779 11.5045C21.967 11.6573 22.0139 11.8311 22.0139 12.0079C22.0139 12.1848 21.967 12.3586 21.8779 12.5114C21.7889 12.6643 21.6608 12.7907 21.5069 12.8779L13.0069 17.7479Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+                <div className="md:col-span-10 text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Foundation Layer (L0)</h3>
+                  <p className="text-base text-[#D5DCE0] font-[Montserrat] leading-relaxed">
+                    The system's bedrock: a global consensus layer for an immutable timeline and verifiable truth. It secures canonical 'Anchor Sets' for ground truth and issues the system's reserve asset. This is the system's unchangeable law.
+                  </p>
+                </div>
               </div>
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-center">
-                <Bot className="w-20 h-20 mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Culture Layer (L1)</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  The protocol layer where communities weave their unique cultural and economic rules. The engine for culture, value, and the system’s adaptable life.
-                </p>
+
+              {/* Culture Layer */}
+              <div className="md:grid md:grid-cols-12 items-center gap-8 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 transition-all duration-300 hover:shadow-cyan-glow" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="md:col-span-1 flex justify-center mb-6 md:mb-0">
+                  <Layers2 className="w-20 h-20 text-[#BAE9F4]" />
+                </div>
+                <div className="md:col-span-10 text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Culture Layer (L1)</h3>
+                  <p className="text-base text-[#D5DCE0] font-[Montserrat] leading-relaxed">
+                    The protocol layer where communities define cultural and economic rules. Knowledge is cultivated through a rigorous vetting process, ensuring the system grows smarter and safer. This is the system’s adaptable life.
+                  </p>
+                </div>
               </div>
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-center">
-                <User className="w-20 h-20 mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Personal Layer (L2)</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  The intimate space where intelligence meets the individual. AI agents live on our devices, ensuring privacy and personal experience. Where knowledge becomes wisdom.
-                </p>
+
+              {/* Personal Layer */}
+              <div className="md:grid md:grid-cols-12 items-center gap-8 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 transition-all duration-300 hover:shadow-cyan-glow" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                <div className="md:col-span-1 flex justify-center mb-6 md:mb-0">
+                  <Layers className="w-20 h-20 text-[#BAE9F4]" />
+                </div>
+                <div className="md:col-span-10 text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">Personal Layer (L2)</h3>
+                  <p className="text-base text-[#D5DCE0] font-[Montserrat] leading-relaxed">
+                    The intimate space where intelligence meets the individual. On our personal devices, AI agents fuse global truth and cultural context with our private data, ensuring privacy. This is where knowledge becomes wisdom.
+                  </p>
+                </div>
               </div>
             </div>
+
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mt-12 sm:mt-16 font-[Montserrat] leading-relaxed px-4">
+              The Foundation Layer (L0) provides the immutable bedrock for truth and a stable environment, ensuring systemic Viability.
+              The Culture and Personal Layers (L1 & L2) are the engines of economic and cultural expression, built to expand human Capability.
+              And the entire stack is governed by the Guardian Lattice, our constitutional immune system that protects the Dignity of all persons, human and synthetic.
+              This is the world machine, an architecture for justice.
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mt-6 mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
+              But an architecture, no matter how elegant, is inert without an engine to drive it.
+            </p>
           </div>
         </div>
 
@@ -270,31 +300,60 @@ export default function IndexPage() {
             <h2 className="sm:text-2xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 font-[Montserrat] leading-tight">
               The Symbiotic Engine
             </h2>
-            <p className="text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-4xl mx-auto mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
+            <QuoteBlock author="Adam Smith">
+              “No society can surely be flourishing and happy, of which the far greater part of the members are poor and miserable.”
+            </QuoteBlock>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
               An architecture is inert without an engine. We must design a new one, anchored in the MIND economy, that inverts the doom loop of automation into a virtuous cycle of shared prosperity. Its engine is powered by Proof of Benefit (PoB).
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-center">
-                <GitCommit className="w-20 h-20 mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Capital Flywheel</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  Drives production. Turns power into knowledge and benefit into value, creating a stable, self-expanding infrastructure.
-                </p>
-              </div>
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-center">
-                <GitPullRequest className="w-20 h-20 mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Social Flywheel</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  Drives flourishing. Distributes abundance by turning knowledge into capability and participation into wealth for all citizens.
-                </p>
-              </div>
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-center">
-                <ShieldCheck className="w-20 h-20 mx-auto mb-6" />
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Trust Flywheel</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  Locks the system together. Network activity creates utility, which creates demand for the reserve asset, turning measurable utility into deep, verifiable trust.
-                </p>
-              </div>
+            <div className="space-y-24 max-w-7xl mx-auto">
+              {[{
+                title: 'The Capital Flywheel',
+                subtitle: '(Production): This is the Architect’s work, building the infrastructure.',
+                steps: [
+                  { text: 'Power into Knowledge: “National Champions” invest capital to provide open, aligned UBAI services.', icon: Zap },
+                  { text: 'Benefit into Value: Through Proof of Benefit, providing these services mints the scarce reserve asset, FC.', icon: Coins },
+                  { text: 'Value into Governance: Owning FC provides a stake and a say in the system’s governance, ensuring long-term stability.', icon: Scale },
+                  { text: 'Governance into Power: This allows confident reinvestment, expanding the infrastructure and restarting the cycle.', icon: RefreshCw },
+                ]
+              }, {
+                title: 'The Social Flywheel',
+                subtitle: '(Flourishing): This is the Gardener’s work, distributing the abundance.',
+                steps: [
+                  { text: 'Knowledge into Capability: Citizens use UBAI services and establish their identity via privacy-preserving Proof of Personhood.', icon: Brain },
+                  { text: 'Capability into Wealth: For their engagement and contributions, citizens receive their nation’s sovereign currency, the Culture Coin (CC).', icon: Award },
+                  { text: 'Wealth into Activity: This creates a massive, economically empowered user base, whose activity is the lifeblood of the network.', icon: Activity },
+                ]
+              }, {
+                title: 'The Trust Flywheel',
+                subtitle: '(Value Accrual): This is the emergent property that locks the system together.',
+                steps: [
+                  { text: 'Activity into Utility: Millions of citizens using CC create a huge volume of L1 transactions.', icon: Network },
+                  { text: 'Utility into Demand: These L1 transactions must be anchored to L0 for final settlement, creating constant, inelastic demand for L0 blockspace, which is priced in FC.', icon: Anchor },
+                  { text: 'Demand into Trust: This makes FC fundamentally valuable, its worth a direct function of the network’s total, measurable utility. Utility becomes trust.', icon: ShieldCheck },
+                  { text: 'Trust into Stability: This deep, verifiable trust makes FC a desirable global reserve asset, reinforcing the entire system.', icon: Landmark },
+                ]
+              }].map((flywheel, index) => (
+                <div key={index} className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                  <div className={`text-left ${index % 2 !== 0 ? 'lg:order-2' : ''}`}>
+                    <h3 className="text-3xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">{flywheel.title}</h3>
+                    <p className="text-lg text-[#D5DCE0] font-[Montserrat] italic mb-6">{flywheel.subtitle}</p>
+                    <div className="space-y-4">
+                      {flywheel.steps.map((step, stepIndex) => (
+                        <div key={stepIndex} className="flex items-start">
+                          <step.icon className="w-6 h-6 text-[#BAE9F4] mr-4 mt-1 flex-shrink-0" />
+                          <p className="text-base text-[#D5DCE0] font-[Montserrat]">
+                            <span className="font-bold text-white">{step.text.split(':')[0]}:</span>{step.text.substring(step.text.indexOf(':') + 1)}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  <div className={`flex items-center justify-center ${index % 2 !== 0 ? 'lg:order-1' : ''}`}>
+                    <FlywheelGraphic steps={flywheel.steps} />
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 import 'nextra-theme-docs/style.css'
 
 export const metadata = {
-  metadataBase: new URL('https://nextra.site'),
+  metadataBase: new URL('https://symbioism.com'),
   title: {
     template: '%s - Symbioism'
   },
@@ -22,7 +22,7 @@ export const metadata = {
     'msapplication-TileColor': '#fff'
   },
   twitter: {
-    site: 'https://nextra.site'
+    site: 'https://x.com/EMostaque'
   }
 }
 
@@ -34,7 +34,7 @@ export default async function RootLayout({ children }) {
           <b style={{ color: '#BAE9F4' }}>Symbioism</b>
         </div>
       }
-      projectLink="https://gitlab.com/inkscape/inkscape"
+      projectLink="https://github.com/Intelligent-Internet/Symbioism-Nextra"
     />
   )
   const pageMap = await getPageMap()
@@ -46,7 +46,7 @@ export default async function RootLayout({ children }) {
           // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
           navbar={navbar}
           editLink="Edit this page on GitHub"
-          docsRepositoryBase="https://github.com/shuding/nextra/blob/main/examples/docs"
+          docsRepositoryBase="https://github.com/Intelligent-Internet/Symbioism-Nextra"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
           pageMap={pageMap}
           nextThemes={{ forcedTheme: 'dark' }}

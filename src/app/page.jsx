@@ -536,7 +536,7 @@ export default function IndexPage() {
              {/* Action Links */}
              <div className="space-y-3 sm:space-y-4 max-w-md mx-auto">
               <a 
-                href="https://twitter.com/IntelligentInte" 
+                href="https://x.com/EMostaque" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl py-5 px-8 text-[#D5DCE0] text-lg font-[Montserrat] hover:bg-[#BAE9F4] hover:text-[#191E1B] transition-all duration-300"
@@ -546,7 +546,7 @@ export default function IndexPage() {
               </a>
               
               <a 
-                href="https://discord.gg/intelligent-internet" 
+                href="https://discord.gg/VBD2yybb" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl py-5 px-8 text-[#D5DCE0] text-lg font-[Montserrat] hover:bg-[#BAE9F4] hover:text-[#191E1B] transition-all duration-300"
@@ -556,7 +556,7 @@ export default function IndexPage() {
               </a>
               
               <a 
-                href="https://github.com/intelligent-internet" 
+                href="https://github.com/Intelligent-Internet/Symbioism-Nextra" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl py-5 px-8 text-[#D5DCE0] text-lg font-[Montserrat] hover:bg-[#BAE9F4] hover:text-[#191E1B] transition-all duration-300"

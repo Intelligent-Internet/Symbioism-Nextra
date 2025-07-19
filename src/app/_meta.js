@@ -10,9 +10,8 @@ export default {
     type: 'page',
     title: 'Framework'
   },
-  blog: {
-    type: 'page',
-    title: 'Blog'
-  }
-
+  // blog: {
+  //   type: 'page',
+  //   title: 'Blog'
+  // }
 }

@@ -36,6 +36,10 @@ body {
   font-family: var(--font-montserrat);
 }
 
+p a {
+  color: #BAE9F4;
+}
+
 .nextra-sidebar-footer,
 .nextra-navbar-blur {
   background-color: #191E1B;

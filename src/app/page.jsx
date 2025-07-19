@@ -147,7 +147,7 @@ export default function IndexPage() {
                 {/* Desktop Layout: Absolute Positioning */}
                 <div className="hidden lg:block">
                   <TripodGraphic className="absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[460px] h-[460px]" />
-                  <div className="absolute top-[1%] left-1/2 -translate-x-1/2 w-2/5 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                  <div className="absolute -top-[1.5%] left-1/2 -translate-x-1/2 w-2/5 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                     <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Capability</h3>
                     <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
                       The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. Uplift is mandated.

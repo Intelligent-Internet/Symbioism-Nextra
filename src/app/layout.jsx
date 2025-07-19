@@ -47,8 +47,12 @@ export default async function RootLayout({ children }) {
           <b style={{ color: '#BAE9F4' }}>Symbioism</b>
         </div>
       }
-      projectLink="https://github.com/Intelligent-Internet/Symbioism-Nextra"
-    />
+      // projectLink="https://github.com/Intelligent-Internet/Symbioism-Nextra"
+    >
+      <a href="https://ii.inc/web/registration" target="_blank" rel="noopener noreferrer" className="bg-[#BAE9F4] text-black font-bold py-2 px-5 rounded-full text-sm no-underline transition-opacity hover:opacity-80 shadow-[0_10px_30px_0_rgba(186,233,244,0.3)]">
+        Sign up
+      </a>
+    </Navbar>
   )
   const pageMap = await getPageMap()
   return (

@@ -127,7 +127,7 @@ export default function IndexPage() {
                   <div className="w-full bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                     <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Capability</h3>
                     <p className="text-sm text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                      The right of all conscious beings to develop their full potential. Exploitation is forbidden.Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. Uplift is mandated.
+                      The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. Uplift is mandated.
                     </p>
                   </div>
                   <div className="w-full bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
@@ -150,7 +150,7 @@ export default function IndexPage() {
                   <div className="absolute top-[1%] left-1/2 -translate-x-1/2 w-2/5 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                     <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Capability</h3>
                     <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                      The right of all conscious beings to develop their full potential. Exploitation is forbidden.Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. Uplift is mandated.
+                      The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. Uplift is mandated.
                     </p>
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 mx-auto flex justify-between w-full">

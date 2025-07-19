@@ -13,9 +13,27 @@
   color: #BAE9F4;
 }
 
+h1 {
+  font-family: var(--font-nunito-sans);
+  font-weight: bold;
+}
+
+h2 {
+  font-family: var(--font-nunito-sans);
+  font-weight: semi-bold;
+}
+
+h3 {
+  font-family: var(--font-nunito-sans);
+}
+
+p {
+  font-family: var(--font-montserrat);
+}
+
 body {
   background-color: #191E1B;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-montserrat);
 }
 
 .nextra-sidebar-footer,

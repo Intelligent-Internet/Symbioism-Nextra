@@ -1,6 +1,7 @@
 /* eslint-env node */
 import { Footer as NextraFooter, Layout, Navbar } from 'nextra-theme-docs'
 import './globals.css'
+import { Montserrat, Nunito_Sans } from 'next/font/google'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import Footer from '../components/Footer'
@@ -26,6 +27,18 @@ export const metadata = {
   }
 }
 
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-montserrat',
+});
+
+const nunito_sans = Nunito_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-nunito-sans',
+});
+
 export default async function RootLayout({ children }) {
   const navbar = (
     <Navbar
@@ -41,7 +54,7 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <Head faviconGlyph="✦" />
-      <body>
+      <body className={`${montserrat.variable} ${nunito_sans.variable}`}>
         <Layout
           // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
           navbar={navbar}

@@ -21,11 +21,29 @@ export const metadata = {
   appleWebApp: {
     title: 'Symbioism'
   },
+  openGraph: {
+    title: 'Symbioism',
+    description: 'Symbioism',
+    url: 'https://symbioism.com',
+    siteName: 'Symbioism',
+    images: [
+      {
+        url: '/homepage.png',
+        alt: 'Symbioism Homepage'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website'
+  },
   other: {
     'msapplication-TileImage': '/ms-icon-144x144.png',
     'msapplication-TileColor': '#fff'
   },
   twitter: {
+    card: 'summary_large_image',
+    title: 'Symbioism',
+    description: 'Symbioism',
+    images: ['/homepage.png'],
     site: 'https://x.com/EMostaque'
   }
 }
@@ -65,7 +83,7 @@ export default async function RootLayout({ children }) {
   const pageMap = await getPageMap()
   return (
     <html lang="en" dir="ltr" suppressHydrationWarning>
-      <Head faviconGlyph="✦" />
+      <Head/>
       <body className={`${montserrat.variable} ${nunito_sans.variable}`}>
         <Layout
           // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}

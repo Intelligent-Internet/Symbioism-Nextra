@@ -2,14 +2,17 @@
 import { Footer as NextraFooter, Layout, Navbar } from 'nextra-theme-docs'
 import './globals.css'
 import { Montserrat, Nunito_Sans } from 'next/font/google'
+import Link from 'next/link'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import Footer from '../components/Footer'
 import 'nextra-theme-docs/style.css'
+import Image from 'next/image'
 
 export const metadata = {
   metadataBase: new URL('https://symbioism.com'),
   title: {
+    default: 'Symbioism',
     template: '%s - Symbioism'
   },
   description: 'Symbioism',
@@ -43,15 +46,20 @@ export default async function RootLayout({ children }) {
   const navbar = (
     <Navbar
       logo={
-        <div>
-          <b style={{ color: '#BAE9F4' }}>Symbioism</b>
+        <div className="flex items-center">
+          <Image src="/icon.png" alt="Logo" width={20} height={20} className='border-1 border-[#BAE9F4] rounded-full'/>
+          <div className="ml-2">
+            <b style={{ color: '#BAE9F4' }}>Symbioism</b>
+          </div>
         </div>
       }
       // projectLink="https://github.com/Intelligent-Internet/Symbioism-Nextra"
     >
-      <a href="https://ii.inc/web/registration" target="_blank" rel="noopener noreferrer" className="bg-[#BAE9F4] text-black font-bold py-2 px-5 rounded-full text-sm no-underline transition-opacity hover:opacity-80 shadow-[0_10px_30px_0_rgba(186,233,244,0.3)]">
-        Sign up
-      </a>
+      <div>
+        <Link href="https://ii.inc/web/registration" target="_blank" rel="noopener noreferrer" className="bg-[#BAE9F4] text-black font-bold py-2 px-5 rounded-full text-sm no-underline transition-opacity hover:opacity-80 shadow-[0_10px_30px_0_rgba(186,233,244,0.3)]">
+          Sign up
+        </Link>
+      </div>
     </Navbar>
   )
   const pageMap = await getPageMap()

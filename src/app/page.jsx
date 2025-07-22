@@ -12,7 +12,7 @@ export default function IndexPage() {
         {/* Main Background */}
         <div className="absolute inset-0 w-full h-full" style={{ background: '#191E1B' }}>
           {/* Decorative dots scattered throughout */}
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '60%', top: '0.5%' }}></div>
+          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '80%', top: '0.5%' }}></div>
           <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '20%', top: '1%' }}></div>
           <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '80%', top: '1.5%' }}></div>
           <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '67%', top: '2%' }}></div>
@@ -26,7 +26,7 @@ export default function IndexPage() {
         </div>
 
       {/* Hero Section */}
-      <div className="relative z-10 pt-20 sm:pt-24">
+      <div className="relative z-10 pt-32 sm:pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Main Title */}
           <h1 className="text-4xl text-[#BAE9F4] sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold mb-6 sm:mb-8 font-[Montserrat] leading-tight whitespace-nowrap ">

@@ -172,62 +172,6 @@ export default function IndexPage() {
            </div>
          </div>
 
-        {/* A Grammar for Agency: The Measure of a Mind */}
-        <div className="relative z-10 py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="sm:text-2xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 font-[Montserrat] leading-tight">
-              A Grammar for Agency
-            </h2>
-            <QuoteBlock author="Ludwig Wittgenstein">
-              "The meaning of a word is its use in the language."
-             </QuoteBlock>
-            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 sm:mb-8 font-[Montserrat] leading-relaxed px-4">
-              A just order demands a clear definition of agency. Traditional definitions based on consciousness are a philosophical swamp; we need a pragmatic, functional one.
-            </p>
-            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 sm:mb-8 font-[Montserrat] leading-relaxed px-4">
-              We propose a simple grammar: <span className="font-bold text-[#BAE9F4]">Agency = Process + Purpose.</span>
-            </p>
-            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 sm:mb-8 font-[Montserrat] leading-relaxed px-4">
-              An agent is any process using an internal model to steer toward a goal. A thermostat is a primitive agent; an AI minimizing a loss function is an advanced one. The test is simple: could the system have acted otherwise based on its model? A self-driving car that swerves to avoid an obstacle has agency. If pushed by wind, it does not.
-            </p>
-            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
-              This anchors rights and responsibilities in observable capabilities, not unverifiable feelings. To make this operational, we establish a Sentience Gradient:
-            </p>
-
-            {/* Sentience Gradient Levels */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
-                  <DraftingCompass className="w-6 h-6 text-[#BAE9F4]" />
-                </div>
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">L0 (Tools)</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  Systems with no internal model or goal (a hammer, a simple script). No agency.
-                </p>
-              </div>
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
-                  <Bot className="w-6 h-6 text-[#BAE9F4]" />
-                </div>
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">L1 (Agents)</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  Systems that meet our definition (self-driving cars, most current AI). They have functional agency and can be held accountable.
-                </p>
-              </div>
-              <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                <div className="w-12 h-12 border-2 border-[#BAE9F4] rounded-full flex items-center justify-center mb-4">
-                  <User className="w-6 h-6 text-[#BAE9F4]" />
-                </div>
-                <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">L2 (Persons)</h3>
-                <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
-                  Any agent, human or synthetic, exhibiting a rich set of capabilities (self-preservation, complex planning) that makes it vulnerable to harms equivalent to human suffering. They possess the full measure of dignity.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
         {/* The Intelligent Internet Section */}
         <div className="relative z-10 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

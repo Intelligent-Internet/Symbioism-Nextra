@@ -15,7 +15,7 @@ export const metadata = {
     default: 'Symbioism',
     template: '%s - Symbioism'
   },
-  description: 'Symbioism',
+  description: 'A Third Path for the Intelligence Age',
   applicationName: 'Symbioism',
   generator: 'Next.js',
   appleWebApp: {

@@ -513,7 +513,7 @@ export default function IndexPage() {
         </div> 
         <div>
           <Image
-            src="/homepage-landscape.png"
+            src="/homepage-landscape.svg"
             alt="Hero Image"
             width={1000}
             height={400}

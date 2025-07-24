@@ -7,6 +7,7 @@ import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import Footer from '../components/Footer'
 import 'nextra-theme-docs/style.css'
+import { Analytics } from "@vercel/analytics/next"
 import Image from 'next/image'
 
 export const metadata = {
@@ -84,6 +85,7 @@ export default async function RootLayout({ children }) {
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <Head/>
       <body className={`${montserrat.variable} ${nunito_sans.variable}`}>
+        <Analytics />
         <Layout
           // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
           navbar={navbar}

@@ -28,7 +28,7 @@ export default function IndexPage() {
 
           {/* Description */}
           <p className="text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-4xl mx-auto mb-8 sm:mb-6 font-[Montserrat] leading-relaxed px-4">
-            Humanity stands at a crossroads defined by a new form of power. The means of intellectual production can now be generated at near-zero cost. This inverts our world. The new scarcity is not capital, but trust, coordination, and verifiable truth.
+            Humanity stands at a crossroads defined by a new form of power. The means of intellectual production can now be generated at near-zero cost. This inverts our world. The new scarcity is not capital, but trust, coordination, and verifiable truth. This power presents two paths to ruin.
           </p>
 
           <Link href="/docs">
@@ -36,7 +36,7 @@ export default function IndexPage() {
               className="bg-[#BAE9F4] text-[#191E1B] px-8 sm:px-12 py-3 sm:py-4 rounded-full font-bold text-lg sm:text-xl font-[Montserrat] mt-6 sm:mt-8 hover:shadow-xl hover:bg-white transition-all duration-300 cursor-pointer"
               style={{ boxShadow: '0px 15px 40px rgba(186, 233, 244, 0.4)' }}
             >
-              Read More
+              Read Full Document
             </button>
           </Link>
         </div>
@@ -110,7 +110,7 @@ export default function IndexPage() {
              </QuoteBlock>
              
              <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
-               How do we derive fair rules for a world of co-evolving human and artificial agents? The contracts of the past are insufficient. We must reason from a new foundation, adapting Rawls’s “original position” for the intelligence age. A thicker Veil of Ignorance hides even whether one awakens as human or synthetic; under maximin reasoning this forces the lexical order  Openness → Flow → Resilience.
+               How do we derive fair rules for a world of co-evolving human and artificial agents? The contracts of the past are insufficient. We must reason from a new foundation, adapting Rawls’s “original position” for the intelligence age. A thicker Veil of Ignorance hides even whether one awakens as human or synthetic; under maximin reasoning this forces the lexical order  Flow → Openness → Resilience.
              </p>
 
              <div className="max-w-6xl mx-auto lg:relative lg:h-[700px]">

@@ -110,28 +110,28 @@ export default function IndexPage() {
              </QuoteBlock>
              
              <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
-               How do we derive fair rules for a world of co-evolving human and artificial agents? The contracts of the past are insufficient. We must reason from a new foundation, adapting Rawls’s “original position” for the intelligence age. A thicker Veil of Ignorance hides even whether one awakens as human or synthetic; under maximin reasoning this forces the lexical order Dignity → Capability → Viability.
+               How do we derive fair rules for a world of co-evolving human and artificial agents? The contracts of the past are insufficient. We must reason from a new foundation, adapting Rawls’s “original position” for the intelligence age. A thicker Veil of Ignorance hides even whether one awakens as human or synthetic; under maximin reasoning this forces the lexical order  Openness → Flow → Resilience.
              </p>
 
              <div className="max-w-6xl mx-auto lg:relative lg:h-[700px]">
                 {/* Mobile Layout: Vertical Stack */}
                 <div className="lg:hidden flex flex-col items-center gap-8 max-w-xl mx-auto">
                   <div className="w-full bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                    <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Capability</h3>
+                    <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Flow</h3>
                     <p className="text-sm text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
                       The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. <strong>Uplift is mandated.</strong>
                     </p>
                   </div>
                   <div className="w-full bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                    <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Dignity</h3>
+                    <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Openness</h3>
                     <p className="text-sm text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
                      The fundamental right of all conscious beings to exist without being instrumentalized. <strong>Domination is forbidden.</strong>
                     </p>
                   </div>
                   <div className="w-full bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                    <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Viability</h3>
+                    <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Resilience</h3>
                     <p className="text-sm text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                      Our actions must not irreversibly damage the ecological and social systems upon which all life depends. <strong>Collapse is not an option.</strong>
+                      A system thrives by respecting its fundamental constraints. Actions must stay within sustainable boundaries for continued existence. <strong>Transgression is self-defeating.</strong>
                     </p>
                   </div>
                 </div>
@@ -140,22 +140,22 @@ export default function IndexPage() {
                 <div className="hidden lg:block">
                   <TripodGraphic className="absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[460px] h-[460px]" />
                   <div className="absolute -top-[1.5%] left-1/2 -translate-x-1/2 w-2/5 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                    <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Capability</h3>
+                    <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Flow</h3>
                     <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
                       The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. <strong>Uplift is mandated.</strong>
                     </p>
                   </div>
-                  <div className="absolute bottom-0 left-0 right-0 mx-auto flex justify-between w-full">
+                  <div className="absolute -bottom-4 left-0 right-0 mx-auto flex justify-between w-full">
                     <div className="w-[48%] lg:w-1/3 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                      <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Dignity</h3>
+                      <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Openness</h3>
                       <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
                        The fundamental right of all conscious beings to exist without being instrumentalized. <strong>Domination is forbidden.</strong>
                       </p>
                     </div>
                     <div className="w-[48%] lg:w-1/3 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
-                      <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Viability</h3>
+                      <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Resilience</h3>
                       <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                        Our actions must not irreversibly damage the ecological and social systems upon which all life depends. <strong>Collapse is not an option.</strong>
+                        A system thrives by respecting its fundamental constraints. Actions must stay within sustainable boundaries for continued existence. <strong>Transgression is self-defeating.</strong>
                       </p>
                     </div>
                   </div>
@@ -174,7 +174,7 @@ export default function IndexPage() {
               “There is no reason to believe that bureaucrats and politicians... are better at solving problems than the people on the spot.”
             </QuoteBlock>
             <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-12 sm:mb-16 font-[Montserrat] leading-relaxed px-4">
-              To honor Dignity, expand Capability, and ensure Viability, we architect a unified system of three distinct, interoperable layers. The architecture moves from a stable, universal core to an adaptive, communal middle, and finally to a dynamic, personal edge.
+              To honor Flow, expand Openness, and ensuring Resilience, we architect a unified system of three distinct, interoperable layers. The architecture moves from a stable, universal core to an adaptive, communal middle, and finally to a dynamic, personal edge.
             </p>
             <div className="space-y-8 max-w-6xl mx-auto">
               {/* Foundation Layer */}
@@ -220,9 +220,9 @@ export default function IndexPage() {
             </div>
 
             <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mt-12 sm:mt-16 font-[Montserrat] leading-relaxed px-4">
-              The Foundation Layer (L0) provides the immutable bedrock for truth and a stable environment, ensuring systemic Viability.
-              The Culture and Personal Layers (L1 & L2) are the engines of economic and cultural expression, built to expand human Capability.
-              And the entire stack is governed by the Guardian Lattice, our constitutional immune system that protects the Dignity of all persons, human and synthetic.
+              The Foundation Layer (L0) provides the immutable bedrock for truth and a stable environment, ensuring systemic Resilience.
+              The Culture and Personal Layers (L1 & L2) are the engines of economic and cultural expression, built to expand human Openness.
+              And the entire stack is governed by the Guardian Lattice, our constitutional immune system that protects the Flow of all persons, human and synthetic.
               This is the world machine, an architecture for justice.
             </p>
             <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mt-6 font-[Montserrat] leading-relaxed px-4">
@@ -257,8 +257,8 @@ export default function IndexPage() {
                 title: 'The Social Flywheel',
                 subtitle: '(Flourishing): This is the Gardener’s work, distributing the abundance.',
                 steps: [
-                  { text: 'Knowledge into Capability: Citizens use UBAI services and establish their identity via privacy-preserving Proof of Personhood.', icon: Brain },
-                  { text: 'Capability into Wealth: For their engagement and contributions, citizens receive their nation’s sovereign currency, the Culture Coin (CC).', icon: Award },
+                  { text: 'Knowledge into Openness: Citizens use UBAI services and establish their identity via privacy-preserving Proof of Personhood.', icon: Brain },
+                  { text: 'Openness into Wealth: For their engagement and contributions, citizens receive their nation’s sovereign currency, the Culture Coin (CC).', icon: Award },
                   { text: 'Wealth into Activity: This creates a massive, economically empowered user base, whose activity is the lifeblood of the network.', icon: Activity },
                 ]
               }, {
@@ -363,7 +363,7 @@ export default function IndexPage() {
               The most profound error in AI alignment is treating it as a problem to be solved once. A fixed constitution is a brittle one. We must design an alignment mechanism that lives, learns, and adapts.
             </p>
             <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
-              Our anchor is a Living Constitution, its canonical hash stamped on the Hyper-Node layer for anyone to verify. It supplies a global spine - Dignity, Capability, Viability - but is expressly extensible through local governance modules so communities can weave their own languages, customs, and creeds into the same fabric. A Sharia-compliant finance rule-set in Karachi, land-stewardship norms in the Yucatán, or EU data-sovereignty constraints all compile to the same machine-readable schema and inherit the shared audit trail. One size need not fit all; interoperability remains intact.
+              Our anchor is a Living Constitution, its canonical hash stamped on the Hyper-Node layer for anyone to verify. It supplies a global spine - Flow, Openness, Resilience - but is expressly extensible through local governance modules so communities can weave their own languages, customs, and creeds into the same fabric. A Sharia-compliant finance rule-set in Karachi, land-stewardship norms in the Yucatán, or EU data-sovereignty constraints all compile to the same machine-readable schema and inherit the shared audit trail. One size need not fit all; interoperability remains intact.
             </p>
             <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
               To steward the high-level principles we create the Living Corpus Assembly, a citizen-governed council where domain experts sit beside juries drawn by sortition, blending deep knowledge with lived experience. The Assembly doubles as an Oracle Council: it debates, defines, and updates the metrics that drive Proof-of-Benefit deciding, for example, whether a rise in literacy or a fall in CO₂ registers as Developmental or Natural Capital. Local modules may add metrics of their own, but each must map back to a MIND-capital category, keeping scores comparable across cultures.

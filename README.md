@@ -1,6 +1,6 @@
 # Symbioism: A Third Path for the Intelligence Age
 
-[![Discord](https://img.shields.io/discord/VBD2yybb?label=discord&logo=discord&color=7289da)](https://discord.gg/VBD2yybb)
+[![Discord](https://img.shields.io/discord/VBD2yybb?label=discord&logo=discord&color=7289da)](https://discord.gg/KNW9ny3cyf)
 [![Twitter Follow](https://img.shields.io/twitter/follow/ii_posts?style=social)](https://x.com/EMostaque)
 
 ![](/public/Symbioism_OGImage.png)

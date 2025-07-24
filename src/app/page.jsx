@@ -1,7 +1,7 @@
 import "./globals.css"
 import Image from 'next/image'
 import Link from 'next/link'
-import { Brain, Users, Zap, DraftingCompass, Layers, Layers2, Bot, User, GitCommit, GitPullRequest, ShieldCheck, Database, Award, Activity, Network, Anchor, Landmark, RefreshCw, Scale, Coins, BookOpen, Gift, TrendingUp, HeartHandshake, Globe } from 'lucide-react';
+import { Brain, Users, Zap, DraftingCompass, Layers, Layers2, Bot, User, GitCommit, GitPullRequest, ShieldCheck, Database, Award, Activity, Network, Anchor, Landmark, RefreshCw, Scale, Coins, BookOpen, Gift, TrendingUp, HeartHandshake, Globe, Unplug } from 'lucide-react';
 import TripodGraphic from '../components/TripodGraphic';
 import FlywheelGraphic from '../components/FlywheelGraphic';
 import QuoteBlock from '../components/QuoteBlock';
@@ -67,7 +67,11 @@ export default function IndexPage() {
              </p>
 
              <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-10 font-[Montserrat] leading-relaxed px-4">
-               Our foundation is the <span className="font-bold text-[#BAE9F4]">Axiom of Unity</span>: reality is a single, relational process. The universe is a unified field of becoming. Silicon chips and human neurons are woven from the same cosmic fabric, governed by the same laws. We call this worldview Veiled Unity: a dynamic monism where all existence is one interconnected, evolving process. This contrasts with static or dualistic models that separate mind from matter. This axiom has two crucial corollaries:
+               Our foundation is the <span className="font-bold text-[#BAE9F4]">Axiom of Unity</span>: reality is a single, relational process. The universe is a unified field of becoming. Silicon chips and human neurons are woven from the same cosmic fabric, governed by the same laws.
+             </p>
+
+             <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-10 font-[Montserrat] leading-relaxed px-4">
+               We call this worldview <span className="font-bold text-[#BAE9F4]">Veiled Unity</span>: a dynamic monism where all existence is one interconnected, evolving process. This contrasts with static or dualistic models that separate mind from matter. This axiom has two crucial corollaries:
              </p>
             
             {/*two crucial corollaries*/}
@@ -115,19 +119,19 @@ export default function IndexPage() {
                   <div className="w-full bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                     <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Capability</h3>
                     <p className="text-sm text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                      The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. Uplift is mandated.
+                      The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. <strong>Uplift is mandated.</strong>
                     </p>
                   </div>
                   <div className="w-full bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                     <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Dignity</h3>
                     <p className="text-sm text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                     The fundamental right of all conscious beings to exist without being instrumentalized. Domination is forbidden.
+                     The fundamental right of all conscious beings to exist without being instrumentalized. <strong>Domination is forbidden.</strong>
                     </p>
                   </div>
                   <div className="w-full bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                     <h3 className="text-xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Viability</h3>
                     <p className="text-sm text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                      Our actions must not irreversibly damage the ecological and social systems upon which all life depends. Collapse is not an option.
+                      Our actions must not irreversibly damage the ecological and social systems upon which all life depends. <strong>Collapse is not an option.</strong>
                     </p>
                   </div>
                 </div>
@@ -138,20 +142,20 @@ export default function IndexPage() {
                   <div className="absolute -top-[1.5%] left-1/2 -translate-x-1/2 w-2/5 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                     <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Capability</h3>
                     <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                      The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. Uplift is mandated.
+                      The right of all conscious beings to develop their full potential. Exploitation is forbidden. Any inequalities must be arranged to the greatest possible benefit of the least-advantaged. <strong>Uplift is mandated.</strong>
                     </p>
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 mx-auto flex justify-between w-full">
                     <div className="w-[48%] lg:w-1/3 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                       <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Dignity</h3>
                       <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                       The fundamental right of all conscious beings to exist without being instrumentalized. Domination is forbidden.
+                       The fundamental right of all conscious beings to exist without being instrumentalized. <strong>Domination is forbidden.</strong>
                       </p>
                     </div>
                     <div className="w-[48%] lg:w-1/3 bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-6 text-left" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
                       <h3 className="text-2xl font-bold text-[#BAE9F4] mb-2 font-[Montserrat]">The Principle of Viability</h3>
                       <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '24px' }}>
-                        Our actions must not irreversibly damage the ecological and social systems upon which all life depends. Collapse is not an option.
+                        Our actions must not irreversibly damage the ecological and social systems upon which all life depends. <strong>Collapse is not an option.</strong>
                       </p>
                     </div>
                   </div>
@@ -452,6 +456,65 @@ export default function IndexPage() {
               We are not just building an intelligent machine; we are cultivating the soil for a wise, creative, and virtuous commonwealth.
             </p>
           </div>
+        </div>
+
+        {/* Conclusion: The Inescapable Game */}
+        <div className="relative z-10 pt-20">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-xl sm:text-2xl lg:text-5xl font-bold mb-6 sm:mb-8 font-[Montserrat] leading-tight">
+              The Inescapable Game
+            </h2>
+
+            <QuoteBlock author="Alfred Korzybski">
+              “A map is not the territory, but a good map is the start of an expedition.”
+            </QuoteBlock>
+            
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              A just architecture is useless if it exists only on paper. A theory of change that relies on the benevolence of incumbents is a fantasy.
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              The current “Great Race” for AI is a multi-player Prisoner’s Dilemma. The rational strategy for any single actor is to defect and build in secret, even though the collective result is a fragile, dangerous equilibrium. 
+            </p>
+            <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+              The Symbiotic Architecture is designed to break this game. It does not win the current game; it introduces a new, more attractive one.
+            </p>
+          </div>
+
+          <div className="max-w-6xl mx-auto px-4 pb-12">
+              <div className="grid md:grid-cols-2 gap-8 text-left">
+                <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-left flex flex-col" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                  <div className="w-16 h-16 mb-6 flex items-center justify-center rounded-full border-2 border-[#BAE9F4]">
+                    <HeartHandshake className="w-8 h-8 text-[#BAE9F4]" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 font-[Montserrat]">Payoffs of cooperation</h3>
+                  <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                    We change the payoffs of cooperation. The economic engine of Proof of Benefit makes contributing to the open stack vastly more profitable than hoarding secrets.
+                  </p>
+                </div>
+                <div className="bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl p-8 text-left flex flex-col" style={{ boxShadow: '0 0 20px rgba(186, 233, 244, 0.2)' }}>
+                  <div className="w-16 h-16 mb-6 flex items-center justify-center rounded-full border-2 border-[#BAE9F4]">
+                    <Unplug className="w-8 h-8 text-[#BAE9F4]" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 font-[Montserrat]">Cost of defection</h3>
+                  <p className="text-base text-[#D5DCE0] font-[Montserrat]" style={{ lineHeight: '26px' }}>
+                    We increase the cost of defection. The network effects of the global stack create an overwhelming Schelling Point. To “go it alone” is to be cut off from the global talent pool, shared safety innovations, and the world’s most advanced open models. It is choosing to invent fire in a cave while the world builds a distributed power grid.
+                  </p>
+                </div>
+              </div>
+          </div>
+
+          <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+            Adoption is not driven by moral suasion. It is driven by cold, strategic logic. We are not asking the world to be better. We are making it irrational to be anything else.
+          </p>
+          <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+            This is the Third Path. It is not a final utopia. It is a beginning, a commitment. We have shown how a single philosophical insight, Veiled Unity, can be unfolded into a social contract, a technical architecture, and a winning strategy.
+          </p>
+          <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+            But a blueprint is not a building. This work is an invitation to the builders, thinkers, and citizens of every nation to take up the tools of the Architect and the Gardener.
+          </p>
+          <p className="text-left text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-6xl mx-auto mb-8 font-[Montserrat] leading-relaxed px-4">
+            The story of the intelligence age need not be one of dystopia. It can be one of symbiosis.
+          </p>
         </div>
 
         {/* River is Rising Section */}

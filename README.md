@@ -3,9 +3,9 @@
 [![Discord](https://img.shields.io/discord/VBD2yybb?label=discord&logo=discord&color=7289da)](https://discord.gg/VBD2yybb)
 [![Twitter Follow](https://img.shields.io/twitter/follow/ii_posts?style=social)](https://x.com/EMostaque)
 
-> Humanity stands at a crossroads defined by a new form of power. The means of intellectual production can now be generated at near-zero cost. This inverts our world. The new scarcity is not capital, but trust, coordination, and verifiable truth.
+![](/public/Symbioism_OGImage.png)
 
----
+> Humanity stands at a crossroads defined by a new form of power. The means of intellectual production can now be generated at near-zero cost. This inverts our world. The new scarcity is not capital, but trust, coordination, and verifiable truth.
 
 ## Foundation: Veiled Unity
 
@@ -16,7 +16,7 @@ To build a symbiotic future, we start with the **Axiom of Unity**: reality is a 
 - **Process**: Reality is a dynamic process, not a static state, allowing for genuine novelty, freedom, and choice.
 - **Co-evolution**: At every scale, mutualism out-competes conflict. Coordinated, positive-sum systems are more resilient and adaptive.
 
----
+
 
 ## The Tripod of Justice
 
@@ -28,7 +28,6 @@ We derive fair rules for a world of co-evolving human and artificial agents from
 2. **The Principle of Capability**: The right of all conscious beings to develop their full potential. Uplift is mandated.
 3. **The Principle of Viability**: Our actions must not irreversibly damage the ecological and social systems upon which all life depends.
 
----
 
 ## The Intelligent Internet
 
@@ -40,7 +39,6 @@ We architect a unified system of three distinct, interoperable layers to honor D
 - **Culture Layer (L1)**: The protocol layer where communities define cultural and economic rules and knowledge is cultivated. This is the system’s adaptable life.
 - **Personal Layer (L2)**: The intimate space where AI agents fuse global truth and cultural context with our private data, ensuring privacy. This is where knowledge becomes wisdom.
 
----
 
 ## The Symbiotic Engine
 
@@ -52,7 +50,6 @@ An architecture is inert without an engine. We design a new one, anchored in the
 - **The Social Flywheel (Flourishing)**: The Gardener’s work, distributing the abundance.
 - **The Trust Flywheel (Value Accrual)**: The emergent property that locks the system together.
 
----
 
 ## The Guardian Lattice
 
@@ -64,7 +61,6 @@ We deploy an automated immune system of specialized, auditable AIs that serve—
 - **Advisors**: Reasoning engines that analyze alerts and create transparent reports.
 - **Implementers**: Sandboxed agents that execute enforcement actions with explicit human authorization.
 
----
 
 ## The Living Constitution
 
@@ -75,7 +71,6 @@ Alignment is not a problem to be solved once. We must design a mechanism that li
 - **Outer alignment**: A Guardian lattice of constitutional AIs continuously checks code and policy.
 - **Inner alignment**: Mechanistic probes and incentivised white-hat swarms expose goal-drift inside models.
 
----
 
 ## Civic Paideia
 

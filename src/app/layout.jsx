@@ -23,7 +23,7 @@ export const metadata = {
   },
   openGraph: {
     title: 'Symbioism',
-    description: 'Symbioism',
+    description: 'A Third Path for the Intelligence Age',
     url: 'https://symbioism.com',
     siteName: 'Symbioism',
     images: [
@@ -42,7 +42,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Symbioism',
-    description: 'Symbioism',
+    description: 'A Third Path for the Intelligence Age',
     images: ['/homepage.png'],
     site: 'https://x.com/EMostaque'
   }
@@ -65,7 +65,6 @@ export default async function RootLayout({ children }) {
     <Navbar
       logo={
         <div className="flex items-center">
-          <Image src="/icon.png" alt="Logo" width={20} height={20} className='border-1 border-[#BAE9F4] rounded-full'/>
           <div className="ml-2">
             <b style={{ color: '#BAE9F4' }}>Symbioism</b>
           </div>

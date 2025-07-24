@@ -29,7 +29,7 @@ export const metadata = {
     siteName: 'Symbioism',
     images: [
       {
-        url: '/homepage.png',
+        url: '/Symbioism_OGImage.png',
         alt: 'Symbioism Homepage'
       }
     ],
@@ -44,7 +44,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Symbioism',
     description: 'A Third Path for the Intelligence Age',
-    images: ['/homepage.png'],
+    images: ['/Symbioism_OGImage.png'],
     site: 'https://x.com/EMostaque'
   }
 }

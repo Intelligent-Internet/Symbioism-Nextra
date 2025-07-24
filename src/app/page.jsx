@@ -5,26 +5,14 @@ import { Brain, Users, Zap, DraftingCompass, Layers, Layers2, Bot, User, GitComm
 import TripodGraphic from '../components/TripodGraphic';
 import FlywheelGraphic from '../components/FlywheelGraphic';
 import QuoteBlock from '../components/QuoteBlock';
+import StarryBackground from '../components/StarryBackground';
 
 export default function IndexPage() {
   return (
     <div className="relative">
-        {/* Main Background */}
-        <div className="absolute inset-0 w-full h-full" style={{ background: '#191E1B' }}>
-          {/* Decorative dots scattered throughout */}
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '80%', top: '0.5%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '20%', top: '1%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '80%', top: '1.5%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '67%', top: '2%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '7%', top: '2.5%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '90%', top: '3%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '55%', top: '3.5%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '85%', top: '4%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '95%', top: '4.5%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '18%', top: '5%' }}></div>
-          <div className="absolute w-1 h-1 bg-[#BAE9F4] rounded-full" style={{ left: '10%', top: '6%' }}></div>
-        </div>
-
+      {/* Main Background */}
+      <StarryBackground starCount={60} />
+      
       {/* Hero Section */}
       <div className="relative z-10 pt-32 sm:pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

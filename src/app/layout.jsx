@@ -91,7 +91,7 @@ export default async function RootLayout({ children }) {
           <main>{children}</main>
           <Footer />
         </Layout>
-        <GoogleAnalytics id="G-00VHQ8C00W" />
+        <GoogleAnalytics gaId="G-00VHQ8C00W" />
       </body>
     </html>
   )

@@ -10,7 +10,7 @@ import 'nextra-theme-docs/style.css'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Image from 'next/image'
 
-export const openGraphImage = '/opengraph-image.png'
+export const openGraphImage = 'https://webstatics.ii.inc/Symbioism_OGImage.png'
 
 export const metadata = {
   metadataBase: new URL('https://symbioism.com'),
@@ -29,12 +29,7 @@ export const metadata = {
     description: 'A Third Path for the Intelligence Age',
     url: 'https://symbioism.com',
     siteName: 'Symbioism',
-    images: [
-      {
-        url: openGraphImage,
-        alt: 'Symbioism Homepage'
-      }
-    ],
+    image: openGraphImage,
     locale: 'en_US',
     type: 'website'
   },
@@ -42,7 +37,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Symbioism',
     description: 'A Third Path for the Intelligence Age',
-    images: [openGraphImage],
+    image: openGraphImage,
     site: 'https://x.com/EMostaque'
   }
 }

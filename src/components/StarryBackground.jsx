@@ -119,7 +119,7 @@ const StarryBackground = ({ starCount = 240 }) => {
   return (
     <div 
       ref={containerRef}
-      className="fixed top-0 left-0 w-full h-[940px] z-0 overflow-hidden bg-[#191E1B]"
+      className="fixed top-0 left-0 w-full h-[640px] z-0 overflow-hidden bg-[#191E1B]"
     >
       {stars.map((star) => (
         <div

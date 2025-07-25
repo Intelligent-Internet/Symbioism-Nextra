@@ -24,16 +24,16 @@ To build a symbiotic future, we start with the **Axiom of Unity**: reality is a 
 
 We derive fair rules for a world of co-evolving human and artificial agents from a new foundation. Adapting Rawls’s “Veil of Ignorance” for the intelligence age, we establish three principles in lexical order:
 
-1. **The Principle of Dignity**: The fundamental right of all conscious beings to exist without being instrumentalized. Domination is forbidden.
-2. **The Principle of Capability**: The right of all conscious beings to develop their full potential. Uplift is mandated.
-3. **The Principle of Viability**: Our actions must not irreversibly damage the ecological and social systems upon which all life depends.
+1. **The Principle of Openness**: The fundamental right of all conscious beings to exist without being instrumentalized. Domination is forbidden.
+2. **The Principle of Flow**: The right of all conscious beings to develop their full potential. Uplift is mandated.
+3. **The Principle of Resilience**: Our actions must not irreversibly damage the ecological and social systems upon which all life depends.
 
 
 ## The Intelligent Internet
 
 > “There is no reason to believe that bureaucrats and politicians... are better at solving problems than the people on the spot.” — Elinor Ostrom
 
-We architect a unified system of three distinct, interoperable layers to honor Dignity, expand Capability, and ensure Viability.
+We architect a unified system of three distinct, interoperable layers to honor Flow, expand Openness, and ensure Resilience.
 
 - **Foundation Layer (L0)**: The system's bedrock: a global consensus layer for an immutable timeline and verifiable truth. This is the system's unchangeable law.
 - **Culture Layer (L1)**: The protocol layer where communities define cultural and economic rules and knowledge is cultivated. This is the system’s adaptable life.
@@ -66,7 +66,7 @@ We deploy an automated immune system of specialized, auditable AIs that serve—
 
 > “The greatest enemy of a good plan is the dream of a perfect plan.” — Carl von Clausewitz
 
-Alignment is not a problem to be solved once. We must design a mechanism that lives, learns, and adapts. Our anchor is a Living Constitution, supplying a global spine—Dignity, Capability, Viability—but expressly extensible through local governance modules.
+Alignment is not a problem to be solved once. We must design a mechanism that lives, learns, and adapts. Our anchor is a Living Constitution, supplying a global spine—Flow, Openness, Resilience—but expressly extensible through local governance modules.
 
 - **Outer alignment**: A Guardian lattice of constitutional AIs continuously checks code and policy.
 - **Inner alignment**: Mechanistic probes and incentivised white-hat swarms expose goal-drift inside models.

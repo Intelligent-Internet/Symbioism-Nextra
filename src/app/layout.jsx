@@ -7,6 +7,7 @@ import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import Footer from '../components/Footer'
 import 'nextra-theme-docs/style.css'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import Image from 'next/image'
 
 export const metadata = {
@@ -28,22 +29,18 @@ export const metadata = {
     siteName: 'Symbioism',
     images: [
       {
-        url: '/homepage.png',
+        url: 'https://webstatics.ii.inc/Symbioism_OGImage.png',
         alt: 'Symbioism Homepage'
       }
     ],
     locale: 'en_US',
     type: 'website'
   },
-  other: {
-    'msapplication-TileImage': '/ms-icon-144x144.png',
-    'msapplication-TileColor': '#fff'
-  },
   twitter: {
     card: 'summary_large_image',
     title: 'Symbioism',
     description: 'A Third Path for the Intelligence Age',
-    images: ['/homepage.png'],
+    images: 'https://webstatics.ii.inc/Symbioism_OGImage.png',
     site: 'https://x.com/EMostaque'
   }
 }
@@ -97,6 +94,7 @@ export default async function RootLayout({ children }) {
           <main>{children}</main>
           <Footer />
         </Layout>
+        <GoogleAnalytics id="G-00VHQ8C00W" />
       </body>
     </html>
   )

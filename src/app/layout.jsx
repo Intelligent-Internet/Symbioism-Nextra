@@ -10,6 +10,8 @@ import 'nextra-theme-docs/style.css'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Image from 'next/image'
 
+export const openGraphImage = '/opengraph-image.png'
+
 export const metadata = {
   metadataBase: new URL('https://symbioism.com'),
   title: {
@@ -29,7 +31,7 @@ export const metadata = {
     siteName: 'Symbioism',
     images: [
       {
-        url: 'https://webstatics.ii.inc/Symbioism_OGImage.png',
+        url: openGraphImage,
         alt: 'Symbioism Homepage'
       }
     ],
@@ -40,7 +42,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Symbioism',
     description: 'A Third Path for the Intelligence Age',
-    images: 'https://webstatics.ii.inc/Symbioism_OGImage.png',
+    images: [openGraphImage],
     site: 'https://x.com/EMostaque'
   }
 }
@@ -81,7 +83,6 @@ export default async function RootLayout({ children }) {
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <Head/>
       <body className={`${montserrat.variable} ${nunito_sans.variable}`}>
-
         <Layout
           // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
           navbar={navbar}

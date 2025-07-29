@@ -89,8 +89,8 @@ export default async function RootLayout({ children }) {
           darkMode={false}
         >
           <main>{children}</main>
-          <Footer />
         </Layout>
+        <Footer />
         <GoogleAnalytics gaId="G-00VHQ8C00W" />
       </body>
     </html>

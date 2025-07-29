@@ -31,7 +31,7 @@ const StarryBackground = ({ starCount = 240 }) => {
         newStars.push({
           id: i,
           x: Math.random() * 100, // 0-100%
-          y: Math.random() * 100, // 0-100%
+          y: Math.pow(Math.random(), 2) * 100, // Skew distribution towards the top
           layer: Math.floor(Math.random() * 3) + 1, // 1, 2, 3 三层
         });
       }
@@ -119,7 +119,7 @@ const StarryBackground = ({ starCount = 240 }) => {
   return (
     <div 
       ref={containerRef}
-      className="fixed top-0 left-0 w-full h-[640px] z-0 overflow-hidden bg-[#191E1B]"
+      className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden bg-[#191E1B]"
     >
       {stars.map((star) => (
         <div

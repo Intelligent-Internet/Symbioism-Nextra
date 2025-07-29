@@ -11,7 +11,9 @@ export default function IndexPage() {
   return (
     <div className="relative">
       {/* Main Background */}
-      <StarryBackground starCount={60} />
+      <div className="absolute inset-0 z-0">
+        <StarryBackground starCount={240} />
+      </div>
       
       {/* Hero Section */}
       <div className="relative z-10 pt-32 sm:pt-32">

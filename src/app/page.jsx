@@ -543,7 +543,7 @@ export default function IndexPage() {
               </a>
               
               <a 
-                href="https://discord.gg/KNW9ny3cyf" 
+                href="https://discord.com/invite/intelligentinternet" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl py-5 px-8 text-[#D5DCE0] text-lg font-[Montserrat] hover:bg-[#BAE9F4] hover:text-[#191E1B] transition-all duration-300"

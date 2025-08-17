@@ -1,7 +1,7 @@
 import "./globals.css"
 import Image from 'next/image'
 import Link from 'next/link'
-import { Brain, Users, Zap, DraftingCompass, Layers, Layers2, Bot, User, GitCommit, GitPullRequest, ShieldCheck, Database, Award, Activity, Network, Anchor, Landmark, RefreshCw, Scale, Coins, BookOpen, Gift, TrendingUp, HeartHandshake, Globe, Unplug } from 'lucide-react';
+import { Podcast, CloudDownload, BookOpen, Github } from 'lucide-react';
 import TripodGraphic from '../components/TripodGraphic';
 import FlywheelGraphic from '../components/FlywheelGraphic';
 import QuoteBlock from '../components/QuoteBlock';
@@ -56,10 +56,10 @@ export default function IndexPage() {
               This is the emergency manual for what comes next.
             </p>
             <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
-              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg">Download PDF</a>
-              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg">Podcast</a>
-              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg">Kindle</a>
-              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg">Github</a>
+              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><CloudDownload /> Download PDF</a>
+              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><Podcast /> Podcast</a>
+              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><BookOpen /> Kindle</a>
+              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><Github /> Github</a>
             </div>
           </div>
         </section>

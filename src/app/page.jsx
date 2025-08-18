@@ -19,15 +19,15 @@ export default function IndexPage() {
       <div className="relative z-10">
         {/* Hero Section */}
         <section className="text-white container mx-auto max-w-7xl px-4 pt-4 sm:pt-8 sm:px-8 lg:px-8 mb-20 md:mb-30">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-16 items-center lg:pl-20">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-16 items-center lg:pl-24">
             {/* Image (order-1 on mobile, order-2 on desktop) */}
             <div className="md:col-span-3 flex justify-center items-center order-1 md:order-2">
-              <div className="relative w-full h-[280px] md:h-[640px] overflow-hidden">
+              <div className="relative w-full h-[280px] md:h-[640px] overflow-hidden pl-4">
                 <Image
                   src="/the-last-economy.png"
                   alt="The Last Economy book cover"
                   fill
-                  className="object-cover"
+                  className="object-cover pl-10"
                   priority
                 />
               </div>

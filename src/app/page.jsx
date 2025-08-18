@@ -59,7 +59,7 @@ export default function IndexPage() {
               <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><CloudDownload /> Download PDF</a>
               <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><Podcast /> Podcast</a>
               <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><BookOpen /> Kindle</a>
-              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><Github /> Github</a>
+              <a href="https://github.com/Intelligent-Internet/Symbioism-Nextra" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><Github /> Github</a>
             </div>
           </div>
         </section>

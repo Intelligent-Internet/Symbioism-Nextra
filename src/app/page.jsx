@@ -19,28 +19,10 @@ export default function IndexPage() {
       <div className="relative z-10">
         {/* Hero Section */}
         <section className="text-white container mx-auto max-w-7xl px-4 pt-4 sm:pt-8 sm:px-8 lg:px-8 mb-20 md:mb-30">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-2 md:gap-16 items-center lg:pl-20">
-            {/* Left side: h1 for mobile, full text for desktop */}
-            <div className="col-span-1 md:col-span-2 text-left">
-              <h1 className="text-4xl md:text-8xl font-bold tracking-tighter pl-8 md:pl-0">
-                THE <br />
-                <span className="text-[#BAE9F4]">LAST</span>
-                <br />
-                ECONOMY
-              </h1>
-              <div className="hidden md:block">
-                <p className="mt-4 md:mt-10 text-lg md:text-4xl">
-                  An Operating System for a New World
-                </p>
-                <a href="/docs/the-last-economy/introduction" className="mt-8 px-6 py-3 rounded-2xl bg-[#BAE9F4] text-[#191E1B] font-bold text-lg hover:opacity-80 hover:cursor-pointer transition-colors shadow-[0_10px_30px_0_rgba(186,233,244,0.3)] inline-block">
-                  Start Reading
-                </a>
-              </div>
-            </div>
-
-            {/* Right side: Book Image */}
-            <div className="col-span-1 md:col-span-3 flex justify-center items-center">
-              <div className="relative w-full h-[320px] md:h-[640px] overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-16 items-center lg:pl-20">
+            {/* Image (order-1 on mobile, order-2 on desktop) */}
+            <div className="md:col-span-3 flex justify-center items-center order-1 md:order-2">
+              <div className="relative w-full h-[280px] md:h-[640px] overflow-hidden">
                 <Image
                   src="/the-last-economy.png"
                   alt="The Last Economy book cover"
@@ -51,9 +33,15 @@ export default function IndexPage() {
               </div>
             </div>
 
-            {/* Bottom part for mobile view */}
-            <div className="col-span-2 md:hidden text-center">
-              <p className="text-lg md:text-4xl">
+            {/* Text content (order-2 on mobile, order-1 on desktop) */}
+            <div className="md:col-span-2 text-center md:text-left order-2 md:order-1">
+              <h1 className="text-4xl md:text-8xl font-bold tracking-tighter">
+                THE <br className="hidden md:block" />
+                <span className="text-[#BAE9F4]">LAST </span>
+                <br className="hidden md:block" />
+                ECONOMY
+              </h1>
+              <p className="mt-4 md:mt-10 text-lg md:text-4xl">
                 An Operating System for a New World
               </p>
               <a href="/docs/the-last-economy/introduction" className="mt-8 px-6 py-3 rounded-2xl bg-[#BAE9F4] text-[#191E1B] font-bold text-lg hover:opacity-80 hover:cursor-pointer transition-colors shadow-[0_10px_30px_0_rgba(186,233,244,0.3)] inline-block">

@@ -22,12 +22,12 @@ export default function IndexPage() {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-16 items-center lg:pl-24">
             {/* Image (order-1 on mobile, order-2 on desktop) */}
             <div className="md:col-span-3 flex justify-center items-center order-1 md:order-2">
-              <div className="relative w-full h-[280px] md:h-[640px] overflow-hidden pl-4">
+              <div className="relative w-full h-[280px] md:h-[640px] overflow-hidden">
                 <Image
                   src="/the-last-economy.png"
                   alt="The Last Economy book cover"
                   fill
-                  className="object-cover pl-10"
+                  className="object-cover lg:pl-10"
                   priority
                 />
               </div>
@@ -94,7 +94,7 @@ export default function IndexPage() {
                 Intelligent Economics
               </h2>
               <span className="bg-[#BAE9F4] text-black text-lg font-semibold px-3 py-1 rounded-full whitespace-nowrap">
-                Coming Soon
+                Paper Coming Soon
               </span>
             </div>
             <p className="mt-8 text-xl sm:text-2xl md:text-3xl text-[#BAE9F4]">

@@ -18,16 +18,16 @@ export default function IndexPage() {
       
       <div className="relative z-10">
         {/* Hero Section */}
-        <section className="text-white container mx-auto max-w-7xl px-4 pt-2sm:px-6 lg:px-8 mb-30">
-          <div className="grid md:grid-cols-2 gap-2 items-center">
+        <section className="text-white container mx-auto max-w-7xl px-4 pt-4 sm:pt-8 sm:px-8 lg:px-8 mb-20 md:mb-30">
+          <div className="grid grid-cols-5 gap-4 md:gap-8 items-center">
             {/* Left side: Title, Subtitle, Button */}
-            <div className="pl-20 text-center md:text-left">
-              <h1 className="text-8xl font-bold tracking-tighter leading-none pt-4">
+            <div className="col-span-3 md:col-span-2 lg:pl-20 text-left">
+              <h1 className="text-4xl md:text-8xl font-bold tracking-tighter leading-none pt-4">
                 THE <br />
                 <span className="text-[#BAE9F4]">LAST</span><br />
                 ECONOMY
               </h1>
-              <p className="mt-10 text-4xl">
+              <p className="mt-4 md:mt-10 text-lg md:text-4xl">
                 An Operating System for a New World
               </p>
               <a href="/docs/the-last-economy/introduction" className="mt-8 px-6 py-3 rounded-2xl bg-[#BAE9F4] text-[#191E1B] font-bold text-lg hover:opacity-80 hover:cursor-pointer transition-colors shadow-[0_10px_30px_0_rgba(186,233,244,0.3)] inline-block">
@@ -35,8 +35,8 @@ export default function IndexPage() {
               </a>
             </div>
             {/* Right side: Book Image */}
-            <div className="flex justify-center items-center">
-              <div className="relative w-2xl h-[640px] overflow-hidden">
+            <div className="col-span-2 md:col-span-3 flex justify-center items-center">
+              <div className="relative w-full h-[360px] md:h-[640px] overflow-hidden">
                 <Image
                   src="/the-last-economy.png"
                   alt="The Last Economy book cover"
@@ -49,13 +49,13 @@ export default function IndexPage() {
           </div>
           
           {/* Bottom part: Description and Links */}
-          <div className="mt-14 text-center max-w-5xl mx-auto">
-            <p className="text-xl md:text-2xl text-gray-300 leading-relaxed font-bold">
+          <div className="mt-16 md:mt-14 text-center max-w-5xl mx-auto">
+            <p className="text-lg md:text-2xl text-gray-300 leading-relaxed font-bold">
               Our economic operating system is obsolete.<br />
               The fundamental rules of our civilization are being rewritten in real-time.<br />
               This is the emergency manual for what comes next.
             </p>
-            <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm md:text-base">
               <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><CloudDownload /> Download PDF</a>
               <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><Podcast /> Podcast</a>
               <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold"><BookOpen /> Kindle</a>
@@ -65,17 +65,17 @@ export default function IndexPage() {
         </section>
 
         {/* The Symbioism Section */}
-        <section className="text-white container mx-auto max-w-5xl pt-2 sm:pt-4 lg:pt-6 mb-10 border-2 border-[#BAE9F4] rounded-2xl p-8">
+        <section className="text-white mx-4 sm:mx-auto max-w-5xl pt-2 sm:pt-4 lg:pt-6 mb-10 border-2 border-[#BAE9F4] rounded-2xl p-6 md:p-8">
           <div className="text-left">
-            <div className="flex items-center justify-between gap-4 mb-6 sm:mb-8">
-              <h2 className="text-xl sm:text-2xl lg:text-5xl font-bold font-[Montserrat] leading-tight">
+            <div className="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 sm:mb-8">
+              <h2 className="text-4xl lg:text-5xl font-bold font-[Montserrat] leading-tight">
                 Symbioism
               </h2>
               <a href="/symbioism" className="bg-[#BAE9F4] text-black text-lg font-semibold px-3 py-1 rounded-full whitespace-nowrap hover:bg-[#BAE9F4]/80 transition-colors">
                 Read More →
               </a>
             </div>
-            <p className="mt-8 text-4xl text-[#BAE9F4]">
+            <p className="mt-4 lg:mt-8 text-xl sm:text-2xl md:text-3xl text-[#BAE9F4]">
               A Third Path for the Intelligence Age
             </p>
             <p className="mt-6 text-xl">
@@ -85,17 +85,17 @@ export default function IndexPage() {
         </section>
 
         {/* The Intelligent Economics Section */}
-        <section className="text-white container mx-auto max-w-5xl pt-2 sm:pt-4 lg:pt-6 mb-30 border-2 border-[#BAE9F4] rounded-2xl p-8">
+        <section className="text-white mx-4 sm:mx-auto max-w-5xl pt-2 sm:pt-4 lg:pt-6 mb-20 md:mb-30 border-2 border-[#BAE9F4] rounded-2xl p-6 md:p-8">
           <div className="text-left">
-            <div className="flex items-center justify-between gap-4 mb-6 sm:mb-8">
-              <h2 className="text-xl sm:text-2xl lg:text-5xl font-bold font-[Montserrat] leading-tight">
+            <div className="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 sm:mb-8">
+              <h2 className="text-4xl lg:text-5xl font-bold font-[Montserrat] leading-tight">
                 Intelligent Economics
               </h2>
               <span className="bg-[#BAE9F4] text-black text-lg font-semibold px-3 py-1 rounded-full whitespace-nowrap">
                 Coming Soon
               </span>
             </div>
-            <p className="mt-8 text-4xl text-[#BAE9F4]">
+            <p className="mt-8 text-xl sm:text-2xl md:text-3xl text-[#BAE9F4]">
               The Symbioism Economics Framework
             </p>
             <p className="mt-6 text-xl">
@@ -107,7 +107,7 @@ export default function IndexPage() {
         {/* River is Rising Section */}
          <div className="relative z-10 pt-20">
            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-             <h2 className="text-xl sm:text-2xl lg:text-5xl font-bold mb-6 sm:mb-8 font-[Montserrat] leading-tight">
+             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 font-[Montserrat] leading-tight">
               Do you want to be part of <br/>
               <span className="text-[#BAE9F4]">changing the future?</span>
              </h2>

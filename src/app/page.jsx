@@ -12,7 +12,7 @@ export default function IndexPage() {
     <div className="relative">
       {/* Main Background */}
       <div className="absolute inset-0 z-0">
-        <StarryBackground starCount={240} />
+        <StarryBackground starCount={200} />
       </div>
       
       

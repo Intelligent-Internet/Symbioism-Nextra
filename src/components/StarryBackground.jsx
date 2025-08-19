@@ -5,7 +5,6 @@ import React, { useEffect, useState, useRef } from 'react';
 const StarryBackground = ({ starCount = 240 }) => {
   const [stars, setStars] = useState([]);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [scrollOffset, setScrollOffset] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const containerRef = useRef(null);
 
@@ -62,15 +61,6 @@ const StarryBackground = ({ starCount = 240 }) => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  // 监听页面滚动
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollOffset(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   // 计算星星的位移
   const getStarTransform = (star) => {
@@ -81,18 +71,10 @@ const StarryBackground = ({ starCount = 240 }) => {
       3: 4,   // 最下层，位移最大
     };
     
-    // 不同层级的滚动偏移系数（轻微的视差效果）
-    const scrollLayerMultipliers = {
-      1: 0.001,  // 最上层，几乎不动
-      2: 0.002,   // 中间层，轻微偏移
-      3: 0.003,  // 最下层，稍多偏移
-    };
-    
     const mouseMultiplier = mouseLayerMultipliers[star.layer];
-    const scrollMultiplier = scrollLayerMultipliers[star.layer];
     
     const offsetX = -mousePosition.x * mouseMultiplier;
-    const offsetY = -mousePosition.y * mouseMultiplier + scrollOffset * scrollMultiplier;
+    const offsetY = -mousePosition.y * mouseMultiplier;
     
     return `translate(${offsetX}px, ${offsetY}px)`;
   };

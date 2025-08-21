@@ -68,4 +68,19 @@ export default {
   'epilogue': {
     title: 'Epilogue'
   },
+  'appendix-a': {
+    title: 'Appendix A'
+  },
+  'appendix-b': {
+    title: 'Appendix B'
+  },
+  'appendix-c': {
+    title: 'Appendix C'
+  },
+  'appendix-d': {
+    title: 'Appendix D'
+  },
+  'bibliography': {
+    title: 'Bibliography'
+  }
 }

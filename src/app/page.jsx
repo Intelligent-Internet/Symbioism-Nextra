@@ -45,7 +45,7 @@ export default function IndexPage() {
               This is the emergency manual for what comes next.
             </p>
             <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm md:text-base">
-              <a href="https://storage.googleapis.com/webstatics.ii.inc/The%20Last%20Economy%20-%20Final%20PDF.pdf" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download PDF</a>
+              <a href="https://storage.googleapis.com/webstatics.ii.inc/The%20Last%20Economy.pdf" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download PDF</a>
               <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Podcast /> Podcast</a>
               <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><BookOpen /> Kindle</a>
               <a href="https://github.com/Intelligent-Internet/Symbioism-Nextra" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Github /> Github</a>

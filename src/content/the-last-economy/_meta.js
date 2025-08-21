@@ -66,6 +66,6 @@ export default {
     title: '21. After Economics'
   },
   'epilogue': {
-    title: 'Epilogue: The Thousandth Day'
+    title: 'Epilogue'
   },
 }

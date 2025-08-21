@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 import 'nextra-theme-docs/style.css'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Image from 'next/image'
+import StarryBackground from '../components/StarryBackground'
 
 export const openGraphImage = 'https://storage.googleapis.com/webstatics.ii.inc/TLE_OGImage.png'
 
@@ -78,19 +79,22 @@ export default async function RootLayout({ children }) {
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <Head/>
       <body className={`${montserrat.variable} ${nunito_sans.variable}`}>
-        <Layout
-          // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
-          navbar={navbar}
-          editLink="Edit this page on GitHub"
-          docsRepositoryBase="https://github.com/Intelligent-Internet/Symbioism-Nextra"
-          sidebar={{ defaultMenuCollapseLevel: 1 }}
-          pageMap={pageMap}
-          nextThemes={{ forcedTheme: 'dark' }}
-          darkMode={false}
-        >
-          <main>{children}</main>
-        </Layout>
-        <Footer />
+        <StarryBackground starCount={200} />
+        <div className="relative z-10">
+          <Layout
+            // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
+            navbar={navbar}
+            editLink="Edit this page on GitHub"
+            docsRepositoryBase="https://github.com/Intelligent-Internet/Symbioism-Nextra"
+            sidebar={{ defaultMenuCollapseLevel: 1 }}
+            pageMap={pageMap}
+            nextThemes={{ forcedTheme: 'dark' }}
+            darkMode={false}
+          >
+            <main>{children}</main>
+          </Layout>
+          <Footer />
+        </div>
         <GoogleAnalytics gaId="G-00VHQ8C00W" />
       </body>
     </html>

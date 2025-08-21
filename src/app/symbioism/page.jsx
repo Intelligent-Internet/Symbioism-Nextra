@@ -5,15 +5,11 @@ import { Brain, Users, Zap, DraftingCompass, Layers, Layers2, Bot, User, GitComm
 import TripodGraphic from '../../components/TripodGraphic';
 import FlywheelGraphic from '../../components/FlywheelGraphic';
 import QuoteBlock from '../../components/QuoteBlock';
-import StarryBackground from '../../components/StarryBackground';
 
 export default function IndexPage() {
   return (
     <div className="relative">
-      {/* Main Background */}
-      <div className="absolute inset-0 z-0">
-        <StarryBackground starCount={240} />
-      </div>
+      {/* Background is globally rendered in layout.jsx */}
       
       {/* Hero Section */}
       <div className="relative z-10 pt-32 sm:pt-32">

@@ -5,15 +5,11 @@ import { Podcast, CloudDownload, BookOpen, Github } from 'lucide-react';
 import TripodGraphic from '../components/TripodGraphic';
 import FlywheelGraphic from '../components/FlywheelGraphic';
 import QuoteBlock from '../components/QuoteBlock';
-import StarryBackground from '../components/StarryBackground';
 
 export default function IndexPage() {
   return (
     <div className="relative">
-      {/* Main Background */}
-      <div className="absolute inset-0 z-0">
-        <StarryBackground starCount={200} />
-      </div>
+      {/* Background is globally rendered in layout.jsx */}
       
       
       <div className="relative z-10">

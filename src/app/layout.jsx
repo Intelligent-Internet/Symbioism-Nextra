@@ -30,7 +30,7 @@ export const metadata = {
     description: 'A Third Path for the Intelligence Age',
     url: 'https://symbioism.com',
     siteName: 'Symbioism',
-    image: openGraphImage,
+    images: [openGraphImage],
     locale: 'en_US',
     type: 'website'
   },
@@ -38,8 +38,8 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Symbioism',
     description: 'A Third Path for the Intelligence Age',
-    image: openGraphImage,
-    site: 'https://x.com/EMostaque'
+    images: [openGraphImage],
+    site: '@EMostaque'
   }
 }
 

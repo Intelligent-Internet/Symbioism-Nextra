@@ -9,9 +9,6 @@ import QuoteBlock from '../components/QuoteBlock';
 export default function IndexPage() {
   return (
     <div className="relative">
-      {/* Background is globally rendered in layout.jsx */}
-      
-      
       <div className="relative z-10">
         {/* Hero Section */}
         <section className="text-white container mx-auto max-w-7xl px-4 pt-4 sm:pt-8 sm:px-8 lg:px-8 mb-20 md:mb-30">

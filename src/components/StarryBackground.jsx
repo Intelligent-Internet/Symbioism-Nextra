@@ -1,11 +1,16 @@
-'use client';
-
+"use client";
 import React, { useEffect, useState, useRef } from 'react';
+import { usePathname } from 'next/navigation';
 
-const StarryBackground = ({ starCount = 240 }) => {
+function StarryBackground({ starCount = 240 }) {
+  const pathname = usePathname();
+  // 在 docs 路由下不渲染背景
+  if (pathname && pathname.startsWith('/docs')) {
+    return null;
+  }
+
   const [stars, setStars] = useState([]);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [scrollOffset, setScrollOffset] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const containerRef = useRef(null);
 
@@ -31,7 +36,7 @@ const StarryBackground = ({ starCount = 240 }) => {
         newStars.push({
           id: i,
           x: Math.random() * 100, // 0-100%
-          y: Math.pow(Math.random(), 2) * 100, // Skew distribution towards the top
+          y: Math.random() * 100, // 0-100%
           layer: Math.floor(Math.random() * 3) + 1, // 1, 2, 3 三层
         });
       }
@@ -62,16 +67,6 @@ const StarryBackground = ({ starCount = 240 }) => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  // 监听页面滚动
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollOffset(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   // 计算星星的位移
   const getStarTransform = (star) => {
     // 不同层级的鼠标位移系数（与鼠标移动方向相反）
@@ -80,19 +75,10 @@ const StarryBackground = ({ starCount = 240 }) => {
       2: 2,   // 中间层
       3: 4,   // 最下层，位移最大
     };
-    
-    // 不同层级的滚动偏移系数（轻微的视差效果）
-    const scrollLayerMultipliers = {
-      1: 0.001,  // 最上层，几乎不动
-      2: 0.002,   // 中间层，轻微偏移
-      3: 0.003,  // 最下层，稍多偏移
-    };
-    
-    const mouseMultiplier = mouseLayerMultipliers[star.layer];
-    const scrollMultiplier = scrollLayerMultipliers[star.layer];
+    const mouseMultiplier = mouseLayerMultipliers[star.layer] ?? 1;
     
     const offsetX = -mousePosition.x * mouseMultiplier;
-    const offsetY = -mousePosition.y * mouseMultiplier + scrollOffset * scrollMultiplier;
+    const offsetY = -mousePosition.y * mouseMultiplier;
     
     return `translate(${offsetX}px, ${offsetY}px)`;
   };
@@ -105,7 +91,7 @@ const StarryBackground = ({ starCount = 240 }) => {
       3: { opacity: 1, size: '4px' },    // 最下层，最亮
     };
     
-    const style = layerStyles[star.layer];
+    const style = layerStyles[star.layer] ?? layerStyles[1];
     
     return {
       opacity: style.opacity,
@@ -119,7 +105,7 @@ const StarryBackground = ({ starCount = 240 }) => {
   return (
     <div 
       ref={containerRef}
-      className="absolute top-0 left-0 w-full h-full z-0 overflow-hidden bg-[#191E1B]"
+      className="fixed top-0 left-0 w-full h-full z-0 pointer-events-none overflow-hidden bg-[#191E1B]"
     >
       {stars.map((star) => (
         <div
@@ -134,6 +120,6 @@ const StarryBackground = ({ starCount = 240 }) => {
       ))}
     </div>
   );
-};
+}
 
 export default StarryBackground;

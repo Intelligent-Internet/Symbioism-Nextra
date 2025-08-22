@@ -2,13 +2,13 @@ export default {
   index: {
     display: 'hidden'
   },
-  // whitepaper: {
-  //   type: 'page',
-  //   title: 'Whitepaper'
-  // },
+  symbioism: {
+    title: 'Symbioism',
+    type: 'page'
+  },
   docs: {
+    title: 'The Last Economy',
     type: 'page',
-    title: 'Full Document'
   },
   // blog: {
   //   type: 'page',

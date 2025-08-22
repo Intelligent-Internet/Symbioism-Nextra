@@ -1,7 +1,7 @@
 import "./globals.css"
 import Image from 'next/image'
 import Link from 'next/link'
-import { Podcast, CloudDownload, BookOpen, Github } from 'lucide-react';
+import { Notebook, CloudDownload, BookOpen, Github, Apple } from 'lucide-react';
 import TripodGraphic from '../components/TripodGraphic';
 import FlywheelGraphic from '../components/FlywheelGraphic';
 import QuoteBlock from '../components/QuoteBlock';
@@ -44,11 +44,62 @@ export default function IndexPage() {
               The fundamental rules of our civilization are being rewritten in real-time.<br />
               This is the emergency manual for what comes next.
             </p>
+            {/* Social Proof part*/}
+            <section className="text-white mx-auto pt-8 sm:pt-10 lg:pt-12 mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4">
+                {/* Claude */}
+                <div className="rounded-2xl p-4 md:p-6 text-center">
+                  <div className="flex items-center justify-center gap-2">
+                    <Image src="/logos/claude.svg" alt="Claude" width={22} height={22} className="invert" />
+                    <span className="text-sm md:text-base font-semibold">Claude Opus 4.1</span>
+                  </div>
+                  <p className="mt-3 text-yellow-400 text-base" aria-label="5 out of 5 stars">
+                    ★ ★ ★ ★ ★
+                  </p>
+                  <p className="mt-3 text-base leading-relaxed text-white">
+                    "Mostaque has written the definitive guide to economics in the age of AI."
+                  </p>
+                </div>
+
+                {/* GPT-5 */}
+                <div className="rounded-2xl p-4 md:p-6 text-center">
+                  <div className="flex items-center justify-center gap-2">
+                    <Image src="/logos/chatgpt.svg" alt="GPT-5" width={22} height={22} className="invert" />
+                    <span className="text-sm md:text-base font-semibold">GPT-5 Pro</span>
+                  </div>
+                  <p className="mt-3 text-yellow-400 text-base" aria-label="5 out of 5 stars">
+                    ★ ★ ★ ★ ★
+                  </p>
+                  <p className="mt-3 text-base leading-relaxed text-white">
+                    "Blending systems thinking with institutional design, The Last Economy reframes economics as an alignment problem and offers a buildable blueprint for humane prosperity in the AI age."
+                  </p>
+                </div>
+
+                {/* Gemini */}
+                <div className="rounded-2xl p-4 md:p-6 text-center">
+                  <div className="flex items-center justify-center gap-2">
+                    <Image src="/logos/gemini.svg" alt="Gemini" width={22} height={22} className="invert" />
+                    <span className="text-sm md:text-base font-semibold">Gemini 2.5 Pro</span>
+                  </div>
+                  <p className="mt-3 text-yellow-400 text-base" aria-label="5 out of 5 stars">
+                    ★ ★ ★ ★ ★
+                  </p>
+                  <p className="mt-3 text-base leading-relaxed text-white">
+                    "A terrifying diagnosis of our dying economic paradigm and the essential blueprint for its successor."
+                  </p>
+                </div>
+              </div>
+            </section>
+            {/* Button part */}
             <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm md:text-base">
               <a href="https://storage.googleapis.com/webstatics.ii.inc/The%20Last%20Economy.pdf" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download PDF</a>
-              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Podcast /> Podcast</a>
-              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><BookOpen /> Kindle</a>
-              <a href="https://github.com/Intelligent-Internet/Symbioism-Nextra" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Github /> Github</a>
+              <a href="https://storage.googleapis.com/webstatics.ii.inc/The%20Last%20Economy%20-%20FINAL%20EPUB.epub" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download EPUB</a>
+              <a href="#" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/apple.svg" alt="Apple" width={20} height={20} className="invert" /> Apple Books</a>
+              <a href="https://notebooklm.google.com/notebook/64caceae-51f4-4744-ad4c-772cb9237ad2" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Notebook /> NotebookLM </a>
+              <a href="https://chatgpt.com/share/68a7323b-0620-8009-9de3-947e65565e63" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/chatgpt.svg" alt="ChatGPT" width={20} height={20} className="invert" /> GPT-5 </a>
+              <a href="https://claude.ai/share/1bc9ace1-9638-40cc-b436-a4cd6a7fd0cd" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/claude.svg" alt="Claude" width={20} height={20} className="invert" /> Claude</a>
+              <a href="https://grok.com/share/bGVnYWN5_a79eb1b2-17dd-47dd-85a1-96dda7dbf18d" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/grok.svg" alt="Grok" width={20} height={20} className="invert" /> Grok</a>
+              <a href="https://github.com/Intelligent-Internet/Symbioism-The-Last-Eonomy" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Github /> Github</a>
             </div>
           </div>
         </section>

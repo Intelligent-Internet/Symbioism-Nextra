@@ -9,13 +9,9 @@
 
 ## Foundation: The Physics of Value
 
-> "The law that entropy always increases holds, I think, the supreme position among the laws of Nature." — Arthur Eddington
-
 For centuries, economics blissfully ignored physics. It built models of perpetual growth assuming that order was natural and decay was a temporary glitch. This was its original sin. *The Last Economy* rebuilds our understanding from the ground up, starting with the universe's only unbreakable law: the Second Law of Thermodynamics. Value is not a social construct; it is a temporary victory against chaos, a state of low entropy created by intelligent agents.
 
 ## The Three Laws of a Living System
-
-> “It is not the strongest of the species that survives, nor the most intelligent; it is the one most adaptable to change.” — Charles Darwin (paraphrased)
 
 Any system that persists against entropy, from a single cell to a civilization, must obey three non-negotiable laws. These are not ideals; they are physical requirements for a sustainable, generative system.
 
@@ -24,8 +20,6 @@ Any system that persists against entropy, from a single cell to a civilization, 
 - **Resilience**: The system must maintain a diversity of components and strategies to survive unforeseen shocks.
 
 ## The MIND Dashboard: A New Compass
-
-> "Not everything that can be counted counts, and not everything that counts can be counted." — William Bruce Cameron
 
 Our current dashboard, GDP, is criminally insane. It measures the speed at which we consume the world but is blind to our capacity to regenerate it. We propose a sane alternative: the **MIND Dashboard**, a four-dimensional view of systemic health based on the Three Laws.
 
@@ -36,8 +30,6 @@ Our current dashboard, GDP, is criminally insane. It measures the speed at which
 
 ## The Three Flows: The Universal Grammar of Value
 
-> "A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it." — Max Planck
-
 For three centuries, economics has been a battle between blind scholars, each touching a different part of the same elephant. Adam Smith, Karl Marx, and Friedrich Hayek were not wrong; they were tragically incomplete. Using the mathematics of the Hodge Decomposition theorem, we reveal the elephant whole: all economic activity is a braided interplay of just three types of value flow.
 
 - **Gradient Flow**: The competitive, zero-sum exchange of scarce, rivalrous goods ("atoms"). The domain of Adam Smith.
@@ -46,16 +38,12 @@ For three centuries, economics has been a battle between blind scholars, each to
 
 ## Humanity as the Alignment Layer
 
-> "The real problem is not whether machines think but whether men do." — B.F. Skinner
-
 The central economic problem of the 21st century is not allocation, but **alignment**. As a new, autonomous machine-to-machine "Second Economy" emerges, humanity's role must fundamentally shift. The Human-AI Symbiosis is not a partnership of equals; it is a relationship between two different kinds of intelligence.
 
 - **AI is the Action Layer**: The uncapped, infinitely scalable engine of execution and optimization.
 - **Humanity is the Alignment Layer**: We are the source of values, ethics, and ultimate purpose that guides the machine's optimization. Our "soft skills"—wisdom, taste, and moral judgment—become the most crucial economic input in the new system.
 
 ## The New Social Contract: A Charter for Universal Intelligence
-
-> "Every generation needs a new revolution." — Thomas Jefferson
 
 The old social contract, a transaction of labor for security, is broken. The new contract must be an endowment, engineered to deliver Dignity, Capability, and Viability in a world saturated with artificial minds. Its core promise is **Universal Access to Intelligence (UAI)**.
 
@@ -64,8 +52,6 @@ The old social contract, a transaction of labor for security, is broken. The new
 - **The Right to Viability**: An auditable, open-licensed Knowledge Commons for all.
 
 ## After Economics: The Arts of Being Human
-
-> "The soul becomes dyed with the color of its thoughts." — Marcus Aurelius
 
 The Intelligence Inversion does not just take our jobs; it violently unbundles the concepts of income, identity, community, and purpose. The terror and the glory of this new age is that we are being liberated from economic necessity and forced to consciously design our own meaning. The "jobs" of the future are not jobs at all; they are the intrinsically human **Arts of Being Human**.
 

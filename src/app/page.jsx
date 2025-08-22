@@ -116,11 +116,11 @@ export default function IndexPage() {
                 Read More →
               </a>
             </div>
-            <p className="mt-4 lg:mt-8 text-xl sm:text-2xl md:text-3xl text-[#BAE9F4]">
+            <p className="mt-4 lg:mt-6 text-xl sm:text-2xl md:text-3xl text-[#BAE9F4]">
               A Third Path for the Intelligence Age
             </p>
             <p className="mt-6 text-xl">
-              Humanity stands at a crossroads defined by a new form of power. The means of intellectual production can now be generated at near-zero cost. This inverts our world. The new scarcity is not capital, but trust, coordination, and verifiable truth. This power presents two paths to ruin.
+              Our philosophy and roadmap for the new infrastructure of the Intelligence Age.
             </p>
           </div>
         </section>
@@ -142,15 +142,15 @@ export default function IndexPage() {
                   The Symbioism Economics Framework
                 </p>
                 <p className="mt-6 text-xl">
-                  The theoretical edifice of 20th-century economics, built on the twin pillars of scarcity and equilibrium, is crumbling. This paper argues that incremental fixes are insufficient. We require a complete reconstruction of economic science, moving its foundations from the contingent psychology of human preference to the universal physics of information and computation. This is the charter for that reconstruction: a new paradigm we call Intelligent Economics.
+                  Our full framework for Intelligent Economics. Formal mathematics, empirical proofs, code and more.
                 </p>
               </div>
               <div className="mt-8 md:mt-0 flex-shrink-0">
                 <Image
                   src="/paper-cover.png"
                   alt="Intelligent Economics"
-                  width={250}
-                  height={250}
+                  width={200}
+                  height={200}
                   className="rounded-xl"
                 />
               </div>

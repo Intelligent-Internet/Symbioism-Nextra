@@ -132,9 +132,9 @@ export default function IndexPage() {
               <h2 className="text-4xl lg:text-5xl font-bold font-[Montserrat] leading-tight">
                 Intelligent Economics
               </h2>
-              <span className="bg-[#BAE9F4] text-black text-lg font-semibold px-3 py-1 rounded-full whitespace-nowrap">
-                Research Preview
-              </span>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMWfd2dFs3dJ5GO7M1yaGrqVWi7nhEaRaF5Sap_1cb9JlS3A/viewform?usp=sharing&ouid=113831395803110386421" className="bg-[#BAE9F4] text-black text-lg font-semibold px-3 py-1 rounded-full whitespace-nowrap" target="_blank">
+                Register Interest →
+              </a>
             </div>
             <div className="md:flex md:items-start md:gap-8">
               <div className="flex-1">

@@ -142,7 +142,7 @@ export default function IndexPage() {
                   The Symbioism Economics Framework
                 </p>
                 <p className="mt-6 text-xl">
-                  Our full framework for Intelligent Economics. Formal mathematics, empirical proofs, code and more.
+                  Our full framework for Intelligent Economics. Formal mathematics, empirical findings, code and more.
                 </p>
               </div>
               <div className="mt-8 md:mt-0 flex-shrink-0">

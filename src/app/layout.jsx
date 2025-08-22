@@ -11,7 +11,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import Image from 'next/image'
 import StarryBackground from '../components/StarryBackground'
 
-export const openGraphImage = 'https://storage.googleapis.com/webstatics.ii.inc/TLE_OGImage.png'
+export const openGraphImage = 'https://webstatics.ii.inc/TLE_OGImage.png'
 
 export const metadata = {
   metadataBase: new URL('https://symbioism.com'),

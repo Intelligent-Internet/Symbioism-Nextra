@@ -132,7 +132,7 @@ export default function IndexPage() {
                 Intelligent Economics
               </h2>
               <span className="bg-[#BAE9F4] text-black text-lg font-semibold px-3 py-1 rounded-full whitespace-nowrap">
-                Paper Coming Soon
+                Research Preview
               </span>
             </div>
             <div className="md:flex md:items-start md:gap-8">

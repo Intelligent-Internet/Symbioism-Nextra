@@ -39,11 +39,22 @@ export default function IndexPage() {
           
           {/* Bottom part: Description and Links */}
           <div className="mt-12 md:mt-16 text-center max-w-5xl mx-auto">
-            <p className="text-base md:text-2xl text-gray-300 leading-relaxed font-bold">
+            {/* Button part */}
+            <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm md:text-base">
+              <a href="https://storage.googleapis.com/webstatics.ii.inc/The%20Last%20Economy.pdf" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download PDF</a>
+              <a href="https://storage.googleapis.com/webstatics.ii.inc/The%20Last%20Economy%20-%20FINAL%20EPUB.epub" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download EPUB</a>
+              <a href="https://books.apple.com/us/book/the-last-economy/id6751326083" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/apple.svg" alt="Apple" width={20} height={20} className="invert" /> Apple Books</a>
+              <a href="https://notebooklm.google.com/notebook/64caceae-51f4-4744-ad4c-772cb9237ad2" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Notebook /> NotebookLM </a>
+              <a href="https://chatgpt.com/share/68a7323b-0620-8009-9de3-947e65565e63" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/chatgpt.svg" alt="ChatGPT" width={20} height={20} className="invert" /> GPT-5 </a>
+              <a href="https://claude.ai/share/1bc9ace1-9638-40cc-b436-a4cd6a7fd0cd" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/claude.svg" alt="Claude" width={20} height={20} className="invert" /> Claude</a>
+              <a href="https://grok.com/share/bGVnYWN5_a79eb1b2-17dd-47dd-85a1-96dda7dbf18d" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/grok.svg" alt="Grok" width={20} height={20} className="invert" /> Grok</a>
+              <a href="https://github.com/Intelligent-Internet/TLE" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Github /> Github</a>
+            </div>
+            {/* <p className="text-base md:text-2xl text-gray-300 leading-relaxed font-bold">
               Our economic operating system is obsolete.<br />
               The fundamental rules of our civilization are being rewritten in real-time.<br />
               This is the emergency manual for what comes next.
-            </p>
+            </p> */}
             {/* Social Proof part*/}
             <section className="text-white mx-auto pt-8 sm:pt-10 lg:pt-12 mb-12">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-4">
@@ -90,17 +101,7 @@ export default function IndexPage() {
                 </div>
               </div>
             </section>
-            {/* Button part */}
-            <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm md:text-base">
-              <a href="https://storage.googleapis.com/webstatics.ii.inc/The%20Last%20Economy.pdf" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download PDF</a>
-              <a href="https://storage.googleapis.com/webstatics.ii.inc/The%20Last%20Economy%20-%20FINAL%20EPUB.epub" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download EPUB</a>
-              <a href="https://books.apple.com/us/book/the-last-economy/id6751326083" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/apple.svg" alt="Apple" width={20} height={20} className="invert" /> Apple Books</a>
-              <a href="https://notebooklm.google.com/notebook/64caceae-51f4-4744-ad4c-772cb9237ad2" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Notebook /> NotebookLM </a>
-              <a href="https://chatgpt.com/share/68a7323b-0620-8009-9de3-947e65565e63" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/chatgpt.svg" alt="ChatGPT" width={20} height={20} className="invert" /> GPT-5 </a>
-              <a href="https://claude.ai/share/1bc9ace1-9638-40cc-b436-a4cd6a7fd0cd" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/claude.svg" alt="Claude" width={20} height={20} className="invert" /> Claude</a>
-              <a href="https://grok.com/share/bGVnYWN5_a79eb1b2-17dd-47dd-85a1-96dda7dbf18d" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/grok.svg" alt="Grok" width={20} height={20} className="invert" /> Grok</a>
-              <a href="https://github.com/Intelligent-Internet/Symbioism-The-Last-Eonomy" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Github /> Github</a>
-            </div>
+            
           </div>
         </section>
 

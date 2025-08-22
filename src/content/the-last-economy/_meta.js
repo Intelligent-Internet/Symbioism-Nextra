@@ -15,7 +15,7 @@ export default {
     title: '4. The Dashboard for Insanity'
   },
   'chapter-5': {
-    title: '5. Interlude'
+    title: '5. The Trial by Fire'
   },
   'chapter-6': {
     title: '6. The Engine of Order'

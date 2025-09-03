@@ -7,7 +7,7 @@ export default {
   //   type: 'page'
   // },
   docs: {
-    title: 'The Last Economy',
+    title: 'Read Now',
     type: 'page',
   },
   // blog: {

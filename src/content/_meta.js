@@ -3,8 +3,8 @@ export default {
     title: 'The Last Economy',
     type: 'page'
   },
-  index: {
-    title: 'Symbioism',
-    type: 'page'
-  },
+  // index: {
+  //   title: 'Symbioism',
+  //   type: 'page'
+  // },
 }

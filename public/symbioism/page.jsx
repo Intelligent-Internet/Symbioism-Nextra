@@ -2,9 +2,9 @@ import "../globals.css"
 import Image from 'next/image'
 import Link from 'next/link'
 import { Brain, Users, Zap, DraftingCompass, Layers, Layers2, Bot, User, GitCommit, GitPullRequest, ShieldCheck, Database, Award, Activity, Network, Anchor, Landmark, RefreshCw, Scale, Coins, BookOpen, Gift, TrendingUp, HeartHandshake, Globe, Unplug } from 'lucide-react';
-import TripodGraphic from '../../components/TripodGraphic';
-import FlywheelGraphic from '../../components/FlywheelGraphic';
-import QuoteBlock from '../../components/QuoteBlock';
+import TripodGraphic from '../../src/components/TripodGraphic';
+import FlywheelGraphic from '../../src/components/FlywheelGraphic';
+import QuoteBlock from '../../src/components/QuoteBlock';
 
 export default function IndexPage() {
   return (

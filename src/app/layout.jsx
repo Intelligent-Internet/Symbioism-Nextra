@@ -16,27 +16,27 @@ export const openGraphImage = 'https://webstatics.ii.inc/TLE_OGImage.png'
 export const metadata = {
   metadataBase: new URL('https://symbioism.com'),
   title: {
-    default: 'Symbioism',
-    template: '%s - Symbioism'
+    default: 'The Last Economy',
+    template: '%s - The Last Economy'
   },
   description: 'A Third Path for the Intelligence Age',
-  applicationName: 'Symbioism',
+  applicationName: 'The Last Economy',
   generator: 'Next.js',
   appleWebApp: {
-    title: 'Symbioism'
+    title: 'The Last Economy'
   },
   openGraph: {
-    title: 'Symbioism',
+    title: 'The Last Economy',
     description: 'A Third Path for the Intelligence Age',
     url: 'https://symbioism.com',
-    siteName: 'Symbioism',
+    siteName: 'The Last Economy',
     images: [openGraphImage],
     locale: 'en_US',
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Symbioism',
+    title: 'The Last Economy',
     description: 'A Third Path for the Intelligence Age',
     images: [openGraphImage],
     site: '@EMostaque'
@@ -61,7 +61,7 @@ export default async function RootLayout({ children }) {
       logo={
         <div className="flex items-center">
           <div className="ml-2">
-            <b style={{ color: '#BAE9F4' }}>Symbioism</b>
+            <b style={{ color: '#BAE9F4' }}>The Last Economy</b>
           </div>
         </div>
       }

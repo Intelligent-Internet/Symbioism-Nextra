@@ -102,26 +102,6 @@ export default function IndexPage() {
           </div>
         </section>
 
-        {/* The Symbioism Section */}
-        <section className="text-white mx-4 sm:mx-auto max-w-5xl pt-2 sm:pt-4 lg:pt-6 mb-10 border-2 border-[#BAE9F4] rounded-2xl p-6 md:p-8">
-          <div className="text-left">
-            <div className="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 sm:mb-8">
-              <h2 className="text-4xl lg:text-5xl font-bold font-[Montserrat] leading-tight">
-                Symbioism
-              </h2>
-              <a href="/symbioism" className="bg-[#BAE9F4] text-black text-lg font-semibold px-3 py-1 rounded-full whitespace-nowrap hover:bg-[#BAE9F4]/80 transition-colors">
-                Read More →
-              </a>
-            </div>
-            <p className="mt-4 lg:mt-6 text-xl sm:text-2xl md:text-3xl text-[#BAE9F4]">
-              A Third Path for the Intelligence Age
-            </p>
-            <p className="mt-6 text-xl">
-              Our philosophy and roadmap for the new infrastructure of the Intelligence Age.
-            </p>
-          </div>
-        </section>
-
         {/* The Intelligent Economics Section */}
         <section className="text-white mx-4 sm:mx-auto max-w-5xl pt-2 sm:pt-4 lg:pt-6 mb-20 md:mb-30 border-2 border-[#BAE9F4] rounded-2xl p-6 md:p-8">
           <div className="text-left">

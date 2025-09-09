@@ -5,6 +5,7 @@ import { Montserrat, Nunito_Sans } from 'next/font/google'
 import Link from 'next/link'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
+import { headers } from 'next/headers'
 import Footer from '../components/Footer'
 import 'nextra-theme-docs/style.css'
 import { GoogleAnalytics } from '@next/third-parties/google'
@@ -13,8 +14,16 @@ import StarryBackground from '../components/StarryBackground'
 
 export const openGraphImage = 'https://webstatics.ii.inc/TLE_OGImage.png'
 
-export const metadata = {
-  metadataBase: new URL('https://symbioism.com'),
+export async function generateMetadata({ params }) {
+  const heads = headers()
+  const pathname = heads.get('next-url')
+  const canonicalUrl = `https://www.thelasteconomy.com${pathname}`
+
+  return {
+      metadataBase: new URL('https://www.thelasteconomy.com'),
+    alternates: {
+      canonical: canonicalUrl,
+    },
   title: {
     default: 'The Last Economy',
     template: '%s - The Last Economy'
@@ -28,7 +37,7 @@ export const metadata = {
   openGraph: {
     title: 'The Last Economy',
     description: 'A Third Path for the Intelligence Age',
-    url: 'https://symbioism.com',
+        url: 'https://www.thelasteconomy.com',
     siteName: 'The Last Economy',
     images: [openGraphImage],
     locale: 'en_US',
@@ -40,6 +49,7 @@ export const metadata = {
     description: 'A Third Path for the Intelligence Age',
     images: [openGraphImage],
     site: '@EMostaque'
+  }
   }
 }
 

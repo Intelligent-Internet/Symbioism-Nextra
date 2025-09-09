@@ -26,11 +26,9 @@ export async function generateMetadata({ params }) {
     },
     title: {
       default: 'The Last Economy',
-    template: '%s - The Last Economy'
+      template: '%s - The Last Economy'
     },
     description: 'A Third Path for the Intelligence Age',
-    applicationName: 'The Last Economy',
-    generator: 'Next.js',
     appleWebApp: {
       title: 'The Last Economy'
     },

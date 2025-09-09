@@ -20,36 +20,36 @@ export async function generateMetadata({ params }) {
   const canonicalUrl = `https://www.thelasteconomy.com${pathname}`
 
   return {
-      metadataBase: new URL('https://www.thelasteconomy.com'),
+    metadataBase: new URL('https://www.thelasteconomy.com'),
     alternates: {
       canonical: canonicalUrl,
     },
-  title: {
-    default: 'The Last Economy',
+    title: {
+      default: 'The Last Economy',
     template: '%s - The Last Economy'
-  },
-  description: 'A Third Path for the Intelligence Age',
-  applicationName: 'The Last Economy',
-  generator: 'Next.js',
-  appleWebApp: {
-    title: 'The Last Economy'
-  },
-  openGraph: {
-    title: 'The Last Economy',
+    },
     description: 'A Third Path for the Intelligence Age',
-        url: 'https://www.thelasteconomy.com',
-    siteName: 'The Last Economy',
-    images: [openGraphImage],
-    locale: 'en_US',
-    type: 'website'
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'The Last Economy',
-    description: 'A Third Path for the Intelligence Age',
-    images: [openGraphImage],
-    site: '@EMostaque'
-  }
+    applicationName: 'The Last Economy',
+    generator: 'Next.js',
+    appleWebApp: {
+      title: 'The Last Economy'
+    },
+    openGraph: {
+      title: 'The Last Economy',
+      description: 'A Third Path for the Intelligence Age',
+      url: 'https://www.thelasteconomy.com',
+      siteName: 'The Last Economy',
+      images: [openGraphImage],
+      locale: 'en_US',
+      type: 'website'
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'The Last Economy',
+      description: 'A Third Path for the Intelligence Age',
+      images: [openGraphImage],
+      site: '@EMostaque'
+    }
   }
 }
 

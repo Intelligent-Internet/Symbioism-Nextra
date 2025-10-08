@@ -87,7 +87,7 @@ export default async function RootLayout({ children }) {
             // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
             navbar={navbar}
             editLink="Edit this page on GitHub"
-            docsRepositoryBase="https://github.com/Intelligent-Internet/Symbioism-Nextra"
+            docsRepositoryBase="https://github.com/Intelligent-Internet/Symbioism-Nextra/tree/main"
             sidebar={{ defaultMenuCollapseLevel: 1 }}
             pageMap={pageMap}
             nextThemes={{ forcedTheme: 'dark' }}
